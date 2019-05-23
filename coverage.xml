@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1558621803">
-  <project timestamp="1558621803">
+<coverage generated="1558621922">
+  <project timestamp="1558621922">
     <package name="Orchid\Access">
       <file name="/home/travis/build/orchidsoftware/platform/src/Access/RoleAccess.php">
         <class name="RoleAccess" namespace="Orchid\Access">
@@ -2213,7 +2213,7 @@
       </file>
       <file name="/home/travis/build/orchidsoftware/platform/src/Screen/Fields/Select.php">
         <class name="Orchid\Screen\Fields\Select" namespace="Orchid\Screen\Fields">
-          <metrics complexity="9" methods="6" coveredmethods="3" conditionals="0" coveredconditionals="0" statements="27" coveredstatements="21" elements="33" coveredelements="24"/>
+          <metrics complexity="9" methods="6" coveredmethods="3" conditionals="0" coveredconditionals="0" statements="26" coveredstatements="20" elements="32" coveredelements="23"/>
         </class>
         <line num="65" type="method" name="make" visibility="public" complexity="1" crap="1" count="7"/>
         <line num="67" type="stmt" count="7"/>
@@ -2244,11 +2244,10 @@
         <line num="152" type="stmt" count="0"/>
         <line num="155" type="stmt" count="1"/>
         <line num="156" type="stmt" count="1"/>
-        <line num="157" type="stmt" count="1"/>
         <line num="160" type="stmt" count="1"/>
         <line num="161" type="stmt" count="1"/>
         <line num="163" type="stmt" count="1"/>
-        <metrics loc="165" ncloc="101" classes="1" methods="6" coveredmethods="3" conditionals="0" coveredconditionals="0" statements="27" coveredstatements="21" elements="33" coveredelements="24"/>
+        <metrics loc="165" ncloc="101" classes="1" methods="6" coveredmethods="3" conditionals="0" coveredconditionals="0" statements="26" coveredstatements="20" elements="32" coveredelements="23"/>
       </file>
       <file name="/home/travis/build/orchidsoftware/platform/src/Screen/Fields/SimpleMDE.php">
         <class name="Orchid\Screen\Fields\SimpleMDE" namespace="Orchid\Screen\Fields">
@@ -2674,6 +2673,6 @@
       <line num="196" type="stmt" count="0"/>
       <metrics loc="198" ncloc="138" classes="0" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="42" coveredstatements="27" elements="42" coveredelements="27"/>
     </file>
-    <metrics files="120" loc="10780" ncloc="6720" classes="114" methods="389" coveredmethods="279" conditionals="0" coveredconditionals="0" statements="1522" coveredstatements="1236" elements="1911" coveredelements="1515"/>
+    <metrics files="120" loc="10780" ncloc="6720" classes="114" methods="389" coveredmethods="279" conditionals="0" coveredconditionals="0" statements="1521" coveredstatements="1235" elements="1910" coveredelements="1514"/>
   </project>
 </coverage>
