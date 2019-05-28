@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1558623449">
-  <project timestamp="1558623449">
+<coverage generated="1559084091">
+  <project timestamp="1559084091">
     <package name="Orchid\Access">
       <file name="/home/travis/build/orchidsoftware/platform/src/Access/RoleAccess.php">
         <class name="RoleAccess" namespace="Orchid\Access">
@@ -114,11 +114,11 @@
         <class name="Orchid\Alert\AlertServiceProvider" namespace="Orchid\Alert">
           <metrics complexity="1" methods="1" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="4" coveredstatements="3" elements="5" coveredelements="3"/>
         </class>
-        <line num="17" type="method" name="register" visibility="public" complexity="1" crap="1.02" count="124"/>
-        <line num="19" type="stmt" count="124"/>
+        <line num="17" type="method" name="register" visibility="public" complexity="1" crap="1.02" count="127"/>
+        <line num="19" type="stmt" count="127"/>
         <line num="22" type="stmt" count="0"/>
-        <line num="23" type="stmt" count="124"/>
-        <line num="24" type="stmt" count="124"/>
+        <line num="23" type="stmt" count="127"/>
+        <line num="24" type="stmt" count="127"/>
         <metrics loc="25" ncloc="19" classes="1" methods="1" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="4" coveredstatements="3" elements="5" coveredelements="3"/>
       </file>
       <file name="/home/travis/build/orchidsoftware/platform/src/Alert/LaravelSessionStore.php">
@@ -310,93 +310,94 @@
         <line num="45" type="stmt" count="1"/>
         <line num="48" type="stmt" count="1"/>
         <line num="50" type="stmt" count="1"/>
-        <line num="59" type="method" name="scopeFilters" visibility="public" complexity="1" crap="1" count="6"/>
-        <line num="61" type="stmt" count="6"/>
-        <line num="62" type="stmt" count="6"/>
-        <line num="64" type="stmt" count="6"/>
+        <line num="59" type="method" name="scopeFilters" visibility="public" complexity="1" crap="1" count="9"/>
+        <line num="61" type="stmt" count="9"/>
+        <line num="62" type="stmt" count="9"/>
+        <line num="64" type="stmt" count="9"/>
         <line num="74" type="method" name="scopeDefaultSort" visibility="public" complexity="2" crap="2" count="2"/>
         <line num="76" type="stmt" count="2"/>
         <line num="77" type="stmt" count="2"/>
         <line num="80" type="stmt" count="2"/>
-        <line num="86" type="method" name="getOptionsFilter" visibility="public" complexity="1" crap="1" count="6"/>
-        <line num="88" type="stmt" count="6"/>
-        <line num="89" type="stmt" count="6"/>
-        <line num="90" type="stmt" count="6"/>
+        <line num="86" type="method" name="getOptionsFilter" visibility="public" complexity="1" crap="1" count="9"/>
+        <line num="88" type="stmt" count="9"/>
+        <line num="89" type="stmt" count="9"/>
+        <line num="90" type="stmt" count="9"/>
         <metrics loc="93" ncloc="61" classes="1" methods="5" coveredmethods="5" conditionals="0" coveredconditionals="0" statements="18" coveredstatements="18" elements="23" coveredelements="23"/>
       </file>
       <file name="/home/travis/build/orchidsoftware/platform/src/Filters/HttpFilter.php">
         <class name="Orchid\Filters\HttpFilter" namespace="Orchid\Filters">
-          <metrics complexity="25" methods="11" coveredmethods="6" conditionals="0" coveredconditionals="0" statements="57" coveredstatements="51" elements="68" coveredelements="57"/>
+          <metrics complexity="25" methods="11" coveredmethods="7" conditionals="0" coveredconditionals="0" statements="58" coveredstatements="53" elements="69" coveredelements="60"/>
         </class>
-        <line num="45" type="method" name="__construct" visibility="public" complexity="1" crap="1" count="9"/>
-        <line num="47" type="stmt" count="9"/>
-        <line num="50" type="stmt" count="4"/>
-        <line num="51" type="stmt" count="9"/>
-        <line num="52" type="stmt" count="9"/>
-        <line num="53" type="stmt" count="9"/>
-        <line num="60" type="method" name="parseHttpValue" visibility="protected" complexity="3" crap="3.04" count="4"/>
-        <line num="62" type="stmt" count="4"/>
-        <line num="63" type="stmt" count="0"/>
-        <line num="66" type="stmt" count="4"/>
-        <line num="68" type="stmt" count="4"/>
-        <line num="69" type="stmt" count="1"/>
-        <line num="72" type="stmt" count="3"/>
-        <line num="80" type="method" name="sanitize" visibility="public" complexity="2" crap="2" count="6"/>
-        <line num="82" type="stmt" count="6"/>
-        <line num="83" type="stmt" count="1"/>
-        <line num="86" type="stmt" count="5"/>
-        <line num="94" type="method" name="build" visibility="public" complexity="1" crap="1" count="6"/>
-        <line num="96" type="stmt" count="6"/>
-        <line num="97" type="stmt" count="6"/>
-        <line num="98" type="stmt" count="6"/>
-        <line num="100" type="stmt" count="6"/>
-        <line num="106" type="method" name="addFiltersToQuery" visibility="protected" complexity="3" crap="3.01" count="6"/>
-        <line num="108" type="stmt" count="6"/>
-        <line num="111" type="stmt" count="4"/>
-        <line num="112" type="stmt" count="4"/>
-        <line num="113" type="stmt" count="0"/>
-        <line num="116" type="stmt" count="4"/>
-        <line num="117" type="stmt" count="3"/>
-        <line num="118" type="stmt" count="3"/>
-        <line num="120" type="stmt" count="6"/>
-        <line num="121" type="stmt" count="6"/>
-        <line num="130" type="method" name="filtersExact" visibility="protected" complexity="3" crap="3" count="3"/>
-        <line num="132" type="stmt" count="3"/>
-        <line num="134" type="stmt" count="3"/>
-        <line num="135" type="stmt" count="1"/>
-        <line num="138" type="stmt" count="2"/>
-        <line num="139" type="stmt" count="1"/>
-        <line num="142" type="stmt" count="1"/>
-        <line num="148" type="method" name="addSortsToQuery" visibility="protected" complexity="3" crap="3" count="6"/>
-        <line num="150" type="stmt" count="6"/>
-        <line num="152" type="stmt" count="6"/>
-        <line num="154" type="stmt" count="2"/>
-        <line num="155" type="stmt" count="2"/>
-        <line num="156" type="stmt" count="2"/>
-        <line num="158" type="stmt" count="2"/>
-        <line num="159" type="stmt" count="1"/>
-        <line num="160" type="stmt" count="1"/>
-        <line num="162" type="stmt" count="6"/>
-        <line num="163" type="stmt" count="6"/>
-        <line num="170" type="method" name="isSort" visibility="public" complexity="4" crap="4.37" count="3"/>
-        <line num="172" type="stmt" count="3"/>
-        <line num="173" type="stmt" count="0"/>
-        <line num="176" type="stmt" count="3"/>
-        <line num="177" type="stmt" count="1"/>
-        <line num="180" type="stmt" count="2"/>
-        <line num="181" type="stmt" count="0"/>
-        <line num="184" type="stmt" count="2"/>
-        <line num="192" type="method" name="revertSort" visibility="public" complexity="2" crap="2.15" count="2"/>
-        <line num="194" type="stmt" count="2"/>
-        <line num="195" type="stmt" count="0"/>
-        <line num="198" type="stmt" count="2"/>
-        <line num="206" type="method" name="getSort" visibility="public" complexity="2" crap="2.15" count="3"/>
-        <line num="208" type="stmt" count="3"/>
-        <line num="209" type="stmt" count="0"/>
-        <line num="212" type="stmt" count="3"/>
-        <line num="220" type="method" name="getFilter" visibility="public" complexity="1" crap="1" count="6"/>
-        <line num="222" type="stmt" count="6"/>
-        <metrics loc="224" ncloc="153" classes="1" methods="11" coveredmethods="6" conditionals="0" coveredconditionals="0" statements="57" coveredstatements="51" elements="68" coveredelements="57"/>
+        <line num="46" type="method" name="__construct" visibility="public" complexity="1" crap="1" count="12"/>
+        <line num="48" type="stmt" count="12"/>
+        <line num="51" type="stmt" count="5"/>
+        <line num="52" type="stmt" count="12"/>
+        <line num="53" type="stmt" count="12"/>
+        <line num="54" type="stmt" count="12"/>
+        <line num="61" type="method" name="parseHttpValue" visibility="protected" complexity="3" crap="3.04" count="5"/>
+        <line num="63" type="stmt" count="5"/>
+        <line num="64" type="stmt" count="0"/>
+        <line num="67" type="stmt" count="5"/>
+        <line num="69" type="stmt" count="5"/>
+        <line num="70" type="stmt" count="1"/>
+        <line num="73" type="stmt" count="4"/>
+        <line num="81" type="method" name="sanitize" visibility="public" complexity="2" crap="2" count="9"/>
+        <line num="83" type="stmt" count="9"/>
+        <line num="84" type="stmt" count="1"/>
+        <line num="87" type="stmt" count="8"/>
+        <line num="95" type="method" name="build" visibility="public" complexity="1" crap="1" count="9"/>
+        <line num="97" type="stmt" count="9"/>
+        <line num="98" type="stmt" count="9"/>
+        <line num="99" type="stmt" count="9"/>
+        <line num="101" type="stmt" count="9"/>
+        <line num="107" type="method" name="addFiltersToQuery" visibility="protected" complexity="3" crap="3" count="9"/>
+        <line num="109" type="stmt" count="9"/>
+        <line num="112" type="stmt" count="5"/>
+        <line num="113" type="stmt" count="5"/>
+        <line num="114" type="stmt" count="1"/>
+        <line num="117" type="stmt" count="5"/>
+        <line num="118" type="stmt" count="4"/>
+        <line num="119" type="stmt" count="4"/>
+        <line num="121" type="stmt" count="9"/>
+        <line num="122" type="stmt" count="9"/>
+        <line num="131" type="method" name="filtersExact" visibility="protected" complexity="3" crap="3" count="4"/>
+        <line num="133" type="stmt" count="4"/>
+        <line num="135" type="stmt" count="4"/>
+        <line num="136" type="stmt" count="1"/>
+        <line num="139" type="stmt" count="3"/>
+        <line num="140" type="stmt" count="1"/>
+        <line num="143" type="stmt" count="2"/>
+        <line num="149" type="method" name="addSortsToQuery" visibility="protected" complexity="3" crap="3" count="9"/>
+        <line num="151" type="stmt" count="9"/>
+        <line num="153" type="stmt" count="9"/>
+        <line num="155" type="stmt" count="4"/>
+        <line num="156" type="stmt" count="4"/>
+        <line num="157" type="stmt" count="4"/>
+        <line num="158" type="stmt" count="4"/>
+        <line num="160" type="stmt" count="4"/>
+        <line num="161" type="stmt" count="3"/>
+        <line num="162" type="stmt" count="3"/>
+        <line num="164" type="stmt" count="9"/>
+        <line num="165" type="stmt" count="9"/>
+        <line num="172" type="method" name="isSort" visibility="public" complexity="4" crap="4.37" count="3"/>
+        <line num="174" type="stmt" count="3"/>
+        <line num="175" type="stmt" count="0"/>
+        <line num="178" type="stmt" count="3"/>
+        <line num="179" type="stmt" count="1"/>
+        <line num="182" type="stmt" count="2"/>
+        <line num="183" type="stmt" count="0"/>
+        <line num="186" type="stmt" count="2"/>
+        <line num="194" type="method" name="revertSort" visibility="public" complexity="2" crap="2.15" count="2"/>
+        <line num="196" type="stmt" count="2"/>
+        <line num="197" type="stmt" count="0"/>
+        <line num="200" type="stmt" count="2"/>
+        <line num="208" type="method" name="getSort" visibility="public" complexity="2" crap="2.15" count="3"/>
+        <line num="210" type="stmt" count="3"/>
+        <line num="211" type="stmt" count="0"/>
+        <line num="214" type="stmt" count="3"/>
+        <line num="222" type="method" name="getFilter" visibility="public" complexity="1" crap="1" count="6"/>
+        <line num="224" type="stmt" count="6"/>
+        <metrics loc="226" ncloc="155" classes="1" methods="11" coveredmethods="7" conditionals="0" coveredconditionals="0" statements="58" coveredstatements="53" elements="69" coveredelements="60"/>
       </file>
     </package>
     <package name="Orchid\Platform\Commands">
@@ -404,20 +405,20 @@
         <class name="Orchid\Platform\Commands\AdminCommand" namespace="Orchid\Platform\Commands">
           <metrics complexity="3" methods="2" coveredmethods="2" conditionals="0" coveredconditionals="0" statements="12" coveredstatements="12" elements="14" coveredelements="14"/>
         </class>
-        <line num="47" type="method" name="__construct" visibility="public" complexity="1" crap="1" count="124"/>
-        <line num="49" type="stmt" count="124"/>
-        <line num="51" type="stmt" count="124"/>
-        <line num="52" type="stmt" count="124"/>
-        <line num="59" type="method" name="handle" visibility="public" complexity="2" crap="2" count="124"/>
-        <line num="62" type="stmt" count="124"/>
-        <line num="63" type="stmt" count="124"/>
-        <line num="64" type="stmt" count="124"/>
-        <line num="65" type="stmt" count="124"/>
-        <line num="66" type="stmt" count="124"/>
-        <line num="69" type="stmt" count="124"/>
+        <line num="47" type="method" name="__construct" visibility="public" complexity="1" crap="1" count="127"/>
+        <line num="49" type="stmt" count="127"/>
+        <line num="51" type="stmt" count="127"/>
+        <line num="52" type="stmt" count="127"/>
+        <line num="59" type="method" name="handle" visibility="public" complexity="2" crap="2" count="127"/>
+        <line num="62" type="stmt" count="127"/>
+        <line num="63" type="stmt" count="127"/>
+        <line num="64" type="stmt" count="127"/>
+        <line num="65" type="stmt" count="127"/>
+        <line num="66" type="stmt" count="127"/>
+        <line num="69" type="stmt" count="127"/>
         <line num="70" type="stmt" count="1"/>
         <line num="71" type="stmt" count="1"/>
-        <line num="73" type="stmt" count="124"/>
+        <line num="73" type="stmt" count="127"/>
         <metrics loc="74" ncloc="46" classes="1" methods="2" coveredmethods="2" conditionals="0" coveredconditionals="0" statements="12" coveredstatements="12" elements="14" coveredelements="14"/>
       </file>
       <file name="/home/travis/build/orchidsoftware/platform/src/Platform/Commands/ChartCommand.php">
@@ -580,54 +581,54 @@
         <class name="Orchid\Platform\Dashboard" namespace="Orchid\Platform">
           <metrics complexity="29" methods="21" coveredmethods="15" conditionals="0" coveredconditionals="0" statements="57" coveredstatements="44" elements="78" coveredelements="59"/>
         </class>
-        <line num="63" type="method" name="__construct" visibility="public" complexity="1" crap="1" count="124"/>
-        <line num="65" type="stmt" count="124"/>
-        <line num="66" type="stmt" count="124"/>
-        <line num="67" type="stmt" count="124"/>
-        <line num="68" type="stmt" count="124"/>
-        <line num="70" type="stmt" count="124"/>
-        <line num="71" type="stmt" count="124"/>
-        <line num="72" type="stmt" count="124"/>
-        <line num="73" type="stmt" count="124"/>
-        <line num="74" type="stmt" count="124"/>
+        <line num="63" type="method" name="__construct" visibility="public" complexity="1" crap="1" count="127"/>
+        <line num="65" type="stmt" count="127"/>
+        <line num="66" type="stmt" count="127"/>
+        <line num="67" type="stmt" count="127"/>
+        <line num="68" type="stmt" count="127"/>
+        <line num="70" type="stmt" count="127"/>
+        <line num="71" type="stmt" count="127"/>
+        <line num="72" type="stmt" count="127"/>
+        <line num="73" type="stmt" count="127"/>
+        <line num="74" type="stmt" count="127"/>
         <line num="81" type="method" name="version" visibility="public" complexity="1" crap="1" count="1"/>
         <line num="83" type="stmt" count="1"/>
-        <line num="93" type="method" name="prefix" visibility="public" complexity="1" crap="1" count="124"/>
-        <line num="95" type="stmt" count="124"/>
-        <line num="97" type="stmt" count="124"/>
+        <line num="93" type="method" name="prefix" visibility="public" complexity="1" crap="1" count="127"/>
+        <line num="95" type="stmt" count="127"/>
+        <line num="97" type="stmt" count="127"/>
         <line num="107" type="method" name="configure" visibility="public" complexity="1" crap="1" count="5"/>
         <line num="109" type="stmt" count="5"/>
         <line num="110" type="stmt" count="5"/>
         <line num="120" type="method" name="option" visibility="public" complexity="1" crap="1" count="1"/>
         <line num="122" type="stmt" count="1"/>
-        <line num="131" type="method" name="modelClass" visibility="public" complexity="2" crap="2" count="124"/>
-        <line num="133" type="stmt" count="124"/>
-        <line num="135" type="stmt" count="124"/>
-        <line num="146" type="method" name="model" visibility="public" complexity="1" crap="1" count="124"/>
-        <line num="148" type="stmt" count="124"/>
+        <line num="131" type="method" name="modelClass" visibility="public" complexity="2" crap="2" count="127"/>
+        <line num="133" type="stmt" count="127"/>
+        <line num="135" type="stmt" count="127"/>
+        <line num="146" type="method" name="model" visibility="public" complexity="1" crap="1" count="127"/>
+        <line num="148" type="stmt" count="127"/>
         <line num="155" type="method" name="useModel" visibility="public" complexity="1" crap="1" count="1"/>
         <line num="157" type="stmt" count="1"/>
         <line num="158" type="stmt" count="1"/>
         <line num="165" type="method" name="checkUpdate" visibility="public" complexity="1" crap="1" count="3"/>
         <line num="167" type="stmt" count="3"/>
-        <line num="175" type="method" name="registerPermissions" visibility="public" complexity="2" crap="2.01" count="124"/>
-        <line num="177" type="stmt" count="124"/>
+        <line num="175" type="method" name="registerPermissions" visibility="public" complexity="2" crap="2.01" count="127"/>
+        <line num="177" type="stmt" count="127"/>
         <line num="178" type="stmt" count="0"/>
-        <line num="181" type="stmt" count="124"/>
-        <line num="182" type="stmt" count="124"/>
-        <line num="184" type="stmt" count="124"/>
-        <line num="185" type="stmt" count="124"/>
-        <line num="187" type="stmt" count="124"/>
+        <line num="181" type="stmt" count="127"/>
+        <line num="182" type="stmt" count="127"/>
+        <line num="184" type="stmt" count="127"/>
+        <line num="185" type="stmt" count="127"/>
+        <line num="187" type="stmt" count="127"/>
         <line num="195" type="method" name="registerEntities" visibility="public" complexity="1" crap="2.00" count="0"/>
         <line num="197" type="stmt" count="0"/>
         <line num="199" type="stmt" count="0"/>
-        <line num="207" type="method" name="registerGlobalSearch" visibility="public" complexity="1" crap="1" count="124"/>
-        <line num="209" type="stmt" count="124"/>
-        <line num="211" type="stmt" count="124"/>
-        <line num="220" type="method" name="registerResource" visibility="public" complexity="1" crap="1" count="124"/>
-        <line num="222" type="stmt" count="124"/>
-        <line num="224" type="stmt" count="124"/>
-        <line num="226" type="stmt" count="124"/>
+        <line num="207" type="method" name="registerGlobalSearch" visibility="public" complexity="1" crap="1" count="127"/>
+        <line num="209" type="stmt" count="127"/>
+        <line num="211" type="stmt" count="127"/>
+        <line num="220" type="method" name="registerResource" visibility="public" complexity="1" crap="1" count="127"/>
+        <line num="222" type="stmt" count="127"/>
+        <line num="224" type="stmt" count="127"/>
+        <line num="226" type="stmt" count="127"/>
         <line num="236" type="method" name="getResource" visibility="public" complexity="2" crap="2" count="17"/>
         <line num="238" type="stmt" count="17"/>
         <line num="239" type="stmt" count="1"/>
@@ -640,11 +641,11 @@
         <line num="262" type="stmt" count="13"/>
         <line num="268" type="method" name="menu" visibility="public" complexity="1" crap="1" count="14"/>
         <line num="270" type="stmt" count="14"/>
-        <line num="276" type="method" name="getPermission" visibility="public" complexity="4" crap="6.74" count="124"/>
-        <line num="278" type="stmt" count="124"/>
-        <line num="279" type="stmt" count="124"/>
-        <line num="281" type="stmt" count="124"/>
-        <line num="282" type="stmt" count="124"/>
+        <line num="276" type="method" name="getPermission" visibility="public" complexity="4" crap="6.74" count="127"/>
+        <line num="278" type="stmt" count="127"/>
+        <line num="279" type="stmt" count="127"/>
+        <line num="281" type="stmt" count="127"/>
+        <line num="282" type="stmt" count="127"/>
         <line num="286" type="stmt" count="0"/>
         <line num="287" type="stmt" count="0"/>
         <line num="288" type="stmt" count="0"/>
@@ -653,9 +654,9 @@
         <line num="301" type="method" name="removePermission" visibility="public" complexity="1" crap="2.00" count="0"/>
         <line num="303" type="stmt" count="0"/>
         <line num="305" type="stmt" count="0"/>
-        <line num="314" type="method" name="addPublicDirectory" visibility="public" complexity="1" crap="1" count="124"/>
-        <line num="316" type="stmt" count="124"/>
-        <line num="318" type="stmt" count="124"/>
+        <line num="314" type="method" name="addPublicDirectory" visibility="public" complexity="1" crap="1" count="127"/>
+        <line num="316" type="stmt" count="127"/>
+        <line num="318" type="stmt" count="127"/>
         <line num="324" type="method" name="getPublicDirectory" visibility="public" complexity="1" crap="1" count="18"/>
         <line num="326" type="stmt" count="18"/>
         <metrics loc="328" ncloc="191" classes="1" methods="21" coveredmethods="15" conditionals="0" coveredconditionals="0" statements="57" coveredstatements="44" elements="78" coveredelements="59"/>
@@ -715,24 +716,24 @@
         <class name="Orchid\Platform\ItemPermission" namespace="Orchid\Platform">
           <metrics complexity="2" methods="2" coveredmethods="2" conditionals="0" coveredconditionals="0" statements="7" coveredstatements="7" elements="9" coveredelements="9"/>
         </class>
-        <line num="24" type="method" name="group" visibility="public" complexity="1" crap="1" count="124"/>
-        <line num="26" type="stmt" count="124"/>
-        <line num="28" type="stmt" count="124"/>
-        <line num="30" type="stmt" count="124"/>
-        <line num="39" type="method" name="addPermission" visibility="public" complexity="1" crap="1" count="124"/>
-        <line num="41" type="stmt" count="124"/>
-        <line num="42" type="stmt" count="124"/>
-        <line num="43" type="stmt" count="124"/>
-        <line num="46" type="stmt" count="124"/>
+        <line num="24" type="method" name="group" visibility="public" complexity="1" crap="1" count="127"/>
+        <line num="26" type="stmt" count="127"/>
+        <line num="28" type="stmt" count="127"/>
+        <line num="30" type="stmt" count="127"/>
+        <line num="39" type="method" name="addPermission" visibility="public" complexity="1" crap="1" count="127"/>
+        <line num="41" type="stmt" count="127"/>
+        <line num="42" type="stmt" count="127"/>
+        <line num="43" type="stmt" count="127"/>
+        <line num="46" type="stmt" count="127"/>
         <metrics loc="48" ncloc="31" classes="1" methods="2" coveredmethods="2" conditionals="0" coveredconditionals="0" statements="7" coveredstatements="7" elements="9" coveredelements="9"/>
       </file>
       <file name="/home/travis/build/orchidsoftware/platform/src/Platform/Menu.php">
         <class name="Orchid\Platform\Menu" namespace="Orchid\Platform">
           <metrics complexity="10" methods="7" coveredmethods="7" conditionals="0" coveredconditionals="0" statements="40" coveredstatements="40" elements="47" coveredelements="47"/>
         </class>
-        <line num="66" type="method" name="__construct" visibility="public" complexity="1" crap="1" count="124"/>
-        <line num="68" type="stmt" count="124"/>
-        <line num="69" type="stmt" count="124"/>
+        <line num="66" type="method" name="__construct" visibility="public" complexity="1" crap="1" count="127"/>
+        <line num="68" type="stmt" count="127"/>
+        <line num="69" type="stmt" count="127"/>
         <line num="79" type="method" name="add" visibility="public" complexity="3" crap="3" count="16"/>
         <line num="81" type="stmt" count="16"/>
         <line num="83" type="stmt" count="16"/>
@@ -1319,25 +1320,25 @@
         <line num="97" type="stmt" count="13"/>
         <line num="105" type="method" name="getSubTitle" visibility="public" complexity="1" crap="1" count="13"/>
         <line num="107" type="stmt" count="13"/>
-        <line num="117" type="method" name="createAdmin" visibility="public" complexity="2" crap="2" count="124"/>
-        <line num="119" type="stmt" count="124"/>
+        <line num="117" type="method" name="createAdmin" visibility="public" complexity="2" crap="2" count="127"/>
+        <line num="119" type="stmt" count="127"/>
         <line num="120" type="stmt" count="1"/>
-        <line num="123" type="stmt" count="124"/>
-        <line num="125" type="stmt" count="124"/>
-        <line num="126" type="stmt" count="124"/>
-        <line num="128" type="stmt" count="124"/>
-        <line num="129" type="stmt" count="124"/>
-        <line num="131" type="stmt" count="124"/>
-        <line num="132" type="stmt" count="124"/>
-        <line num="133" type="stmt" count="124"/>
-        <line num="134" type="stmt" count="124"/>
-        <line num="135" type="stmt" count="124"/>
-        <line num="138" type="stmt" count="124"/>
-        <line num="139" type="stmt" count="124"/>
-        <line num="140" type="stmt" count="124"/>
-        <line num="141" type="stmt" count="124"/>
-        <line num="142" type="stmt" count="124"/>
-        <line num="144" type="stmt" count="124"/>
+        <line num="123" type="stmt" count="127"/>
+        <line num="125" type="stmt" count="127"/>
+        <line num="126" type="stmt" count="127"/>
+        <line num="128" type="stmt" count="127"/>
+        <line num="129" type="stmt" count="127"/>
+        <line num="131" type="stmt" count="127"/>
+        <line num="132" type="stmt" count="127"/>
+        <line num="133" type="stmt" count="127"/>
+        <line num="134" type="stmt" count="127"/>
+        <line num="135" type="stmt" count="127"/>
+        <line num="138" type="stmt" count="127"/>
+        <line num="139" type="stmt" count="127"/>
+        <line num="140" type="stmt" count="127"/>
+        <line num="141" type="stmt" count="127"/>
+        <line num="142" type="stmt" count="127"/>
+        <line num="144" type="stmt" count="127"/>
         <line num="151" type="method" name="getAvatar" visibility="public" complexity="1" crap="1" count="12"/>
         <line num="153" type="stmt" count="12"/>
         <line num="155" type="stmt" count="12"/>
@@ -1359,15 +1360,15 @@
         <class name="Orchid\Platform\Notifications\DashboardNotification" namespace="Orchid\Platform\Notifications">
           <metrics complexity="3" methods="3" coveredmethods="3" conditionals="0" coveredconditionals="0" statements="6" coveredstatements="6" elements="9" coveredelements="9"/>
         </class>
-        <line num="45" type="method" name="__construct" visibility="public" complexity="1" crap="1" count="124"/>
-        <line num="47" type="stmt" count="124"/>
-        <line num="48" type="stmt" count="124"/>
-        <line num="50" type="stmt" count="124"/>
-        <line num="51" type="stmt" count="124"/>
-        <line num="58" type="method" name="via" visibility="public" complexity="1" crap="1" count="124"/>
-        <line num="60" type="stmt" count="124"/>
-        <line num="68" type="method" name="toArray" visibility="public" complexity="1" crap="1" count="124"/>
-        <line num="70" type="stmt" count="124"/>
+        <line num="45" type="method" name="__construct" visibility="public" complexity="1" crap="1" count="127"/>
+        <line num="47" type="stmt" count="127"/>
+        <line num="48" type="stmt" count="127"/>
+        <line num="50" type="stmt" count="127"/>
+        <line num="51" type="stmt" count="127"/>
+        <line num="58" type="method" name="via" visibility="public" complexity="1" crap="1" count="127"/>
+        <line num="60" type="stmt" count="127"/>
+        <line num="68" type="method" name="toArray" visibility="public" complexity="1" crap="1" count="127"/>
+        <line num="70" type="stmt" count="127"/>
         <metrics loc="72" ncloc="42" classes="1" methods="3" coveredmethods="3" conditionals="0" coveredconditionals="0" statements="6" coveredstatements="6" elements="9" coveredelements="9"/>
       </file>
       <file name="/home/travis/build/orchidsoftware/platform/src/Platform/Notifications/ResetPassword.php">
@@ -1392,144 +1393,144 @@
         <class name="Orchid\Platform\Providers\EventServiceProvider" namespace="Orchid\Platform\Providers">
           <metrics complexity="1" methods="1" coveredmethods="1" conditionals="0" coveredconditionals="0" statements="2" coveredstatements="2" elements="3" coveredelements="3"/>
         </class>
-        <line num="29" type="method" name="boot" visibility="public" complexity="1" crap="1" count="124"/>
-        <line num="31" type="stmt" count="124"/>
-        <line num="32" type="stmt" count="124"/>
+        <line num="29" type="method" name="boot" visibility="public" complexity="1" crap="1" count="127"/>
+        <line num="31" type="stmt" count="127"/>
+        <line num="32" type="stmt" count="127"/>
         <metrics loc="33" ncloc="25" classes="1" methods="1" coveredmethods="1" conditionals="0" coveredconditionals="0" statements="2" coveredstatements="2" elements="3" coveredelements="3"/>
       </file>
       <file name="/home/travis/build/orchidsoftware/platform/src/Platform/Providers/FoundationServiceProvider.php">
         <class name="Orchid\Platform\Providers\FoundationServiceProvider" namespace="Orchid\Platform\Providers">
           <metrics complexity="12" methods="9" coveredmethods="9" conditionals="0" coveredconditionals="0" statements="41" coveredstatements="41" elements="50" coveredelements="50"/>
         </class>
-        <line num="52" type="method" name="boot" visibility="public" complexity="1" crap="1" count="124"/>
-        <line num="55" type="stmt" count="124"/>
-        <line num="56" type="stmt" count="124"/>
-        <line num="57" type="stmt" count="124"/>
-        <line num="58" type="stmt" count="124"/>
-        <line num="59" type="stmt" count="124"/>
-        <line num="60" type="stmt" count="124"/>
-        <line num="61" type="stmt" count="124"/>
-        <line num="68" type="method" name="registerDatabase" visibility="protected" complexity="1" crap="1" count="124"/>
-        <line num="70" type="stmt" count="124"/>
-        <line num="72" type="stmt" count="124"/>
-        <line num="80" type="method" name="registerTranslations" visibility="public" complexity="1" crap="1" count="124"/>
-        <line num="82" type="stmt" count="124"/>
-        <line num="84" type="stmt" count="124"/>
-        <line num="92" type="method" name="registerConfig" visibility="protected" complexity="1" crap="1" count="124"/>
-        <line num="94" type="stmt" count="124"/>
-        <line num="95" type="stmt" count="124"/>
-        <line num="96" type="stmt" count="124"/>
-        <line num="98" type="stmt" count="124"/>
-        <line num="106" type="method" name="registerOrchid" visibility="protected" complexity="1" crap="1" count="124"/>
-        <line num="108" type="stmt" count="124"/>
-        <line num="109" type="stmt" count="124"/>
-        <line num="110" type="stmt" count="124"/>
-        <line num="111" type="stmt" count="124"/>
-        <line num="113" type="stmt" count="124"/>
-        <line num="121" type="method" name="registerViews" visibility="public" complexity="1" crap="1" count="124"/>
-        <line num="123" type="stmt" count="124"/>
-        <line num="125" type="stmt" count="124"/>
-        <line num="126" type="stmt" count="124"/>
-        <line num="127" type="stmt" count="124"/>
-        <line num="129" type="stmt" count="124"/>
-        <line num="135" type="method" name="registerProviders" visibility="public" complexity="2" crap="2" count="124"/>
-        <line num="137" type="stmt" count="124"/>
-        <line num="138" type="stmt" count="124"/>
-        <line num="140" type="stmt" count="124"/>
-        <line num="147" type="method" name="provides" visibility="public" complexity="1" crap="1" count="124"/>
-        <line num="150" type="stmt" count="124"/>
-        <line num="162" type="method" name="register" visibility="public" complexity="3" crap="3" count="124"/>
-        <line num="164" type="stmt" count="124"/>
-        <line num="167" type="stmt" count="124"/>
-        <line num="168" type="stmt" count="124"/>
-        <line num="170" type="stmt" count="124"/>
-        <line num="173" type="stmt" count="124"/>
-        <line num="174" type="stmt" count="124"/>
+        <line num="52" type="method" name="boot" visibility="public" complexity="1" crap="1" count="127"/>
+        <line num="55" type="stmt" count="127"/>
+        <line num="56" type="stmt" count="127"/>
+        <line num="57" type="stmt" count="127"/>
+        <line num="58" type="stmt" count="127"/>
+        <line num="59" type="stmt" count="127"/>
+        <line num="60" type="stmt" count="127"/>
+        <line num="61" type="stmt" count="127"/>
+        <line num="68" type="method" name="registerDatabase" visibility="protected" complexity="1" crap="1" count="127"/>
+        <line num="70" type="stmt" count="127"/>
+        <line num="72" type="stmt" count="127"/>
+        <line num="80" type="method" name="registerTranslations" visibility="public" complexity="1" crap="1" count="127"/>
+        <line num="82" type="stmt" count="127"/>
+        <line num="84" type="stmt" count="127"/>
+        <line num="92" type="method" name="registerConfig" visibility="protected" complexity="1" crap="1" count="127"/>
+        <line num="94" type="stmt" count="127"/>
+        <line num="95" type="stmt" count="127"/>
+        <line num="96" type="stmt" count="127"/>
+        <line num="98" type="stmt" count="127"/>
+        <line num="106" type="method" name="registerOrchid" visibility="protected" complexity="1" crap="1" count="127"/>
+        <line num="108" type="stmt" count="127"/>
+        <line num="109" type="stmt" count="127"/>
+        <line num="110" type="stmt" count="127"/>
+        <line num="111" type="stmt" count="127"/>
+        <line num="113" type="stmt" count="127"/>
+        <line num="121" type="method" name="registerViews" visibility="public" complexity="1" crap="1" count="127"/>
+        <line num="123" type="stmt" count="127"/>
+        <line num="125" type="stmt" count="127"/>
+        <line num="126" type="stmt" count="127"/>
+        <line num="127" type="stmt" count="127"/>
+        <line num="129" type="stmt" count="127"/>
+        <line num="135" type="method" name="registerProviders" visibility="public" complexity="2" crap="2" count="127"/>
+        <line num="137" type="stmt" count="127"/>
+        <line num="138" type="stmt" count="127"/>
+        <line num="140" type="stmt" count="127"/>
+        <line num="147" type="method" name="provides" visibility="public" complexity="1" crap="1" count="127"/>
+        <line num="150" type="stmt" count="127"/>
+        <line num="162" type="method" name="register" visibility="public" complexity="3" crap="3" count="127"/>
+        <line num="164" type="stmt" count="127"/>
+        <line num="167" type="stmt" count="127"/>
+        <line num="168" type="stmt" count="127"/>
+        <line num="170" type="stmt" count="127"/>
+        <line num="173" type="stmt" count="127"/>
+        <line num="174" type="stmt" count="127"/>
         <line num="175" type="stmt" count="1"/>
-        <line num="178" type="stmt" count="124"/>
+        <line num="178" type="stmt" count="127"/>
         <line num="182" type="stmt" count="1"/>
-        <line num="185" type="stmt" count="124"/>
-        <line num="186" type="stmt" count="124"/>
-        <line num="188" type="stmt" count="124"/>
+        <line num="185" type="stmt" count="127"/>
+        <line num="186" type="stmt" count="127"/>
+        <line num="188" type="stmt" count="127"/>
         <metrics loc="189" ncloc="137" classes="1" methods="9" coveredmethods="9" conditionals="0" coveredconditionals="0" statements="41" coveredstatements="41" elements="50" coveredelements="50"/>
       </file>
       <file name="/home/travis/build/orchidsoftware/platform/src/Platform/Providers/PlatformServiceProvider.php">
         <class name="Orchid\Platform\Providers\PlatformServiceProvider" namespace="Orchid\Platform\Providers">
           <metrics complexity="5" methods="4" coveredmethods="4" conditionals="0" coveredconditionals="0" statements="23" coveredstatements="23" elements="27" coveredelements="27"/>
         </class>
-        <line num="29" type="method" name="boot" visibility="public" complexity="1" crap="1" count="124"/>
-        <line num="31" type="stmt" count="124"/>
-        <line num="33" type="stmt" count="124"/>
-        <line num="34" type="stmt" count="124"/>
-        <line num="35" type="stmt" count="124"/>
-        <line num="36" type="stmt" count="124"/>
-        <line num="39" type="stmt" count="124"/>
-        <line num="40" type="stmt" count="124"/>
-        <line num="41" type="stmt" count="124"/>
-        <line num="42" type="stmt" count="124"/>
-        <line num="43" type="stmt" count="124"/>
-        <line num="44" type="stmt" count="124"/>
-        <line num="45" type="stmt" count="124"/>
-        <line num="46" type="stmt" count="124"/>
-        <line num="51" type="method" name="registerPermissionsMain" visibility="protected" complexity="1" crap="1" count="124"/>
-        <line num="53" type="stmt" count="124"/>
-        <line num="54" type="stmt" count="124"/>
-        <line num="55" type="stmt" count="124"/>
-        <line num="56" type="stmt" count="124"/>
-        <line num="62" type="method" name="registerPermissionsSystems" visibility="protected" complexity="1" crap="1" count="124"/>
-        <line num="64" type="stmt" count="124"/>
-        <line num="65" type="stmt" count="124"/>
-        <line num="66" type="stmt" count="124"/>
-        <line num="72" type="method" name="register" visibility="public" complexity="2" crap="2" count="124"/>
-        <line num="74" type="stmt" count="124"/>
-        <line num="75" type="stmt" count="124"/>
-        <line num="77" type="stmt" count="124"/>
+        <line num="29" type="method" name="boot" visibility="public" complexity="1" crap="1" count="127"/>
+        <line num="31" type="stmt" count="127"/>
+        <line num="33" type="stmt" count="127"/>
+        <line num="34" type="stmt" count="127"/>
+        <line num="35" type="stmt" count="127"/>
+        <line num="36" type="stmt" count="127"/>
+        <line num="39" type="stmt" count="127"/>
+        <line num="40" type="stmt" count="127"/>
+        <line num="41" type="stmt" count="127"/>
+        <line num="42" type="stmt" count="127"/>
+        <line num="43" type="stmt" count="127"/>
+        <line num="44" type="stmt" count="127"/>
+        <line num="45" type="stmt" count="127"/>
+        <line num="46" type="stmt" count="127"/>
+        <line num="51" type="method" name="registerPermissionsMain" visibility="protected" complexity="1" crap="1" count="127"/>
+        <line num="53" type="stmt" count="127"/>
+        <line num="54" type="stmt" count="127"/>
+        <line num="55" type="stmt" count="127"/>
+        <line num="56" type="stmt" count="127"/>
+        <line num="62" type="method" name="registerPermissionsSystems" visibility="protected" complexity="1" crap="1" count="127"/>
+        <line num="64" type="stmt" count="127"/>
+        <line num="65" type="stmt" count="127"/>
+        <line num="66" type="stmt" count="127"/>
+        <line num="72" type="method" name="register" visibility="public" complexity="2" crap="2" count="127"/>
+        <line num="74" type="stmt" count="127"/>
+        <line num="75" type="stmt" count="127"/>
+        <line num="77" type="stmt" count="127"/>
         <metrics loc="78" ncloc="61" classes="1" methods="4" coveredmethods="4" conditionals="0" coveredconditionals="0" statements="23" coveredstatements="23" elements="27" coveredelements="27"/>
       </file>
       <file name="/home/travis/build/orchidsoftware/platform/src/Platform/Providers/RouteServiceProvider.php">
         <class name="Orchid\Platform\Providers\RouteServiceProvider" namespace="Orchid\Platform\Providers">
           <metrics complexity="5" methods="3" coveredmethods="2" conditionals="0" coveredconditionals="0" statements="37" coveredstatements="36" elements="40" coveredelements="38"/>
         </class>
-        <line num="20" type="method" name="boot" visibility="public" complexity="1" crap="1" count="124"/>
-        <line num="22" type="stmt" count="124"/>
-        <line num="23" type="stmt" count="124"/>
-        <line num="26" type="stmt" count="124"/>
-        <line num="28" type="stmt" count="124"/>
-        <line num="30" type="stmt" count="124"/>
-        <line num="31" type="stmt" count="124"/>
-        <line num="36" type="method" name="binding" visibility="public" complexity="2" crap="2.02" count="124"/>
+        <line num="20" type="method" name="boot" visibility="public" complexity="1" crap="1" count="127"/>
+        <line num="22" type="stmt" count="127"/>
+        <line num="23" type="stmt" count="127"/>
+        <line num="26" type="stmt" count="127"/>
+        <line num="28" type="stmt" count="127"/>
+        <line num="30" type="stmt" count="127"/>
+        <line num="31" type="stmt" count="127"/>
+        <line num="36" type="method" name="binding" visibility="public" complexity="2" crap="2.02" count="127"/>
         <line num="39" type="stmt" count="1"/>
         <line num="41" type="stmt" count="1"/>
         <line num="42" type="stmt" count="0"/>
         <line num="43" type="stmt" count="1"/>
-        <line num="44" type="stmt" count="124"/>
-        <line num="45" type="stmt" count="124"/>
-        <line num="52" type="method" name="map" visibility="public" complexity="2" crap="2" count="124"/>
-        <line num="57" type="stmt" count="124"/>
-        <line num="58" type="stmt" count="124"/>
-        <line num="59" type="stmt" count="124"/>
-        <line num="60" type="stmt" count="124"/>
-        <line num="65" type="stmt" count="124"/>
-        <line num="66" type="stmt" count="124"/>
-        <line num="67" type="stmt" count="124"/>
-        <line num="68" type="stmt" count="124"/>
-        <line num="69" type="stmt" count="124"/>
-        <line num="74" type="stmt" count="124"/>
-        <line num="75" type="stmt" count="124"/>
-        <line num="76" type="stmt" count="124"/>
-        <line num="77" type="stmt" count="124"/>
-        <line num="78" type="stmt" count="124"/>
-        <line num="83" type="stmt" count="124"/>
-        <line num="84" type="stmt" count="124"/>
-        <line num="85" type="stmt" count="124"/>
-        <line num="86" type="stmt" count="124"/>
-        <line num="87" type="stmt" count="124"/>
-        <line num="92" type="stmt" count="124"/>
-        <line num="93" type="stmt" count="124"/>
-        <line num="94" type="stmt" count="124"/>
-        <line num="95" type="stmt" count="124"/>
-        <line num="96" type="stmt" count="124"/>
-        <line num="98" type="stmt" count="124"/>
+        <line num="44" type="stmt" count="127"/>
+        <line num="45" type="stmt" count="127"/>
+        <line num="52" type="method" name="map" visibility="public" complexity="2" crap="2" count="127"/>
+        <line num="57" type="stmt" count="127"/>
+        <line num="58" type="stmt" count="127"/>
+        <line num="59" type="stmt" count="127"/>
+        <line num="60" type="stmt" count="127"/>
+        <line num="65" type="stmt" count="127"/>
+        <line num="66" type="stmt" count="127"/>
+        <line num="67" type="stmt" count="127"/>
+        <line num="68" type="stmt" count="127"/>
+        <line num="69" type="stmt" count="127"/>
+        <line num="74" type="stmt" count="127"/>
+        <line num="75" type="stmt" count="127"/>
+        <line num="76" type="stmt" count="127"/>
+        <line num="77" type="stmt" count="127"/>
+        <line num="78" type="stmt" count="127"/>
+        <line num="83" type="stmt" count="127"/>
+        <line num="84" type="stmt" count="127"/>
+        <line num="85" type="stmt" count="127"/>
+        <line num="86" type="stmt" count="127"/>
+        <line num="87" type="stmt" count="127"/>
+        <line num="92" type="stmt" count="127"/>
+        <line num="93" type="stmt" count="127"/>
+        <line num="94" type="stmt" count="127"/>
+        <line num="95" type="stmt" count="127"/>
+        <line num="96" type="stmt" count="127"/>
+        <line num="98" type="stmt" count="127"/>
         <metrics loc="99" ncloc="71" classes="1" methods="3" coveredmethods="2" conditionals="0" coveredconditionals="0" statements="37" coveredstatements="36" elements="40" coveredelements="38"/>
       </file>
     </package>
@@ -1753,12 +1754,12 @@
         <line num="425" type="method" name="hr" visibility="public" complexity="1" crap="1" count="1"/>
         <line num="427" type="stmt" count="1"/>
         <line num="429" type="stmt" count="1"/>
-        <line num="437" type="method" name="addBeforeRender" visibility="public" complexity="1" crap="1" count="5"/>
-        <line num="439" type="stmt" count="5"/>
-        <line num="441" type="stmt" count="5"/>
+        <line num="437" type="method" name="addBeforeRender" visibility="public" complexity="1" crap="1" count="6"/>
+        <line num="439" type="stmt" count="6"/>
+        <line num="441" type="stmt" count="6"/>
         <line num="447" type="method" name="runBeforeRender" visibility="public" complexity="2" crap="2" count="40"/>
         <line num="449" type="stmt" count="40"/>
-        <line num="450" type="stmt" count="5"/>
+        <line num="450" type="stmt" count="6"/>
         <line num="452" type="stmt" count="40"/>
         <metrics loc="453" ncloc="291" classes="1" methods="22" coveredmethods="17" conditionals="0" coveredconditionals="0" statements="93" coveredstatements="82" elements="115" coveredelements="99"/>
       </file>
@@ -2073,35 +2074,35 @@
       </file>
       <file name="/home/travis/build/orchidsoftware/platform/src/Screen/Fields/DateRange.php">
         <class name="Orchid\Screen\Fields\DateRange" namespace="Orchid\Screen\Fields">
-          <metrics complexity="1" methods="1" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="1" coveredstatements="0" elements="2" coveredelements="0"/>
+          <metrics complexity="1" methods="1" coveredmethods="1" conditionals="0" coveredconditionals="0" statements="1" coveredstatements="1" elements="2" coveredelements="2"/>
         </class>
-        <line num="99" type="method" name="make" visibility="public" complexity="1" crap="2.00" count="0"/>
-        <line num="101" type="stmt" count="0"/>
-        <metrics loc="103" ncloc="52" classes="1" methods="1" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="1" coveredstatements="0" elements="2" coveredelements="0"/>
+        <line num="99" type="method" name="make" visibility="public" complexity="1" crap="1" count="1"/>
+        <line num="101" type="stmt" count="1"/>
+        <metrics loc="103" ncloc="52" classes="1" methods="1" coveredmethods="1" conditionals="0" coveredconditionals="0" statements="1" coveredstatements="1" elements="2" coveredelements="2"/>
       </file>
       <file name="/home/travis/build/orchidsoftware/platform/src/Screen/Fields/DateTimer.php">
         <class name="Orchid\Screen\Fields\DateTimer" namespace="Orchid\Screen\Fields">
-          <metrics complexity="6" methods="6" coveredmethods="1" conditionals="0" coveredconditionals="0" statements="12" coveredstatements="1" elements="18" coveredelements="2"/>
+          <metrics complexity="6" methods="6" coveredmethods="6" conditionals="0" coveredconditionals="0" statements="12" coveredstatements="12" elements="18" coveredelements="18"/>
         </class>
         <line num="109" type="method" name="make" visibility="public" complexity="1" crap="1" count="1"/>
         <line num="111" type="stmt" count="1"/>
-        <line num="119" type="method" name="enableTime" visibility="public" complexity="1" crap="2.00" count="0"/>
-        <line num="121" type="stmt" count="0"/>
-        <line num="123" type="stmt" count="0"/>
-        <line num="131" type="method" name="format24hr" visibility="public" complexity="1" crap="2.00" count="0"/>
-        <line num="133" type="stmt" count="0"/>
-        <line num="135" type="stmt" count="0"/>
-        <line num="143" type="method" name="allowInput" visibility="public" complexity="1" crap="2.00" count="0"/>
-        <line num="145" type="stmt" count="0"/>
-        <line num="147" type="stmt" count="0"/>
-        <line num="155" type="method" name="format" visibility="public" complexity="1" crap="2.00" count="0"/>
-        <line num="157" type="stmt" count="0"/>
-        <line num="159" type="stmt" count="0"/>
-        <line num="169" type="method" name="noCalendar" visibility="public" complexity="1" crap="2.00" count="0"/>
-        <line num="171" type="stmt" count="0"/>
-        <line num="172" type="stmt" count="0"/>
-        <line num="174" type="stmt" count="0"/>
-        <metrics loc="176" ncloc="98" classes="1" methods="6" coveredmethods="1" conditionals="0" coveredconditionals="0" statements="12" coveredstatements="1" elements="18" coveredelements="2"/>
+        <line num="119" type="method" name="enableTime" visibility="public" complexity="1" crap="1" count="1"/>
+        <line num="121" type="stmt" count="1"/>
+        <line num="123" type="stmt" count="1"/>
+        <line num="131" type="method" name="format24hr" visibility="public" complexity="1" crap="1" count="1"/>
+        <line num="133" type="stmt" count="1"/>
+        <line num="135" type="stmt" count="1"/>
+        <line num="143" type="method" name="allowInput" visibility="public" complexity="1" crap="1" count="1"/>
+        <line num="145" type="stmt" count="1"/>
+        <line num="147" type="stmt" count="1"/>
+        <line num="155" type="method" name="format" visibility="public" complexity="1" crap="1" count="1"/>
+        <line num="157" type="stmt" count="1"/>
+        <line num="159" type="stmt" count="1"/>
+        <line num="169" type="method" name="noCalendar" visibility="public" complexity="1" crap="1" count="1"/>
+        <line num="171" type="stmt" count="1"/>
+        <line num="172" type="stmt" count="1"/>
+        <line num="174" type="stmt" count="1"/>
+        <metrics loc="176" ncloc="98" classes="1" methods="6" coveredmethods="6" conditionals="0" coveredconditionals="0" statements="12" coveredstatements="12" elements="18" coveredelements="18"/>
       </file>
       <file name="/home/travis/build/orchidsoftware/platform/src/Screen/Fields/Input.php">
         <class name="Orchid\Screen\Fields\Input" namespace="Orchid\Screen\Fields">
@@ -2173,43 +2174,43 @@
       </file>
       <file name="/home/travis/build/orchidsoftware/platform/src/Screen/Fields/RadioButtons.php">
         <class name="Orchid\Screen\Fields\RadioButtons" namespace="Orchid\Screen\Fields">
-          <metrics complexity="1" methods="1" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="1" coveredstatements="0" elements="2" coveredelements="0"/>
+          <metrics complexity="1" methods="1" coveredmethods="1" conditionals="0" coveredconditionals="0" statements="1" coveredstatements="1" elements="2" coveredelements="2"/>
         </class>
-        <line num="62" type="method" name="make" visibility="public" complexity="1" crap="2.00" count="0"/>
-        <line num="64" type="stmt" count="0"/>
-        <metrics loc="66" ncloc="34" classes="1" methods="1" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="1" coveredstatements="0" elements="2" coveredelements="0"/>
+        <line num="62" type="method" name="make" visibility="public" complexity="1" crap="1" count="1"/>
+        <line num="64" type="stmt" count="1"/>
+        <metrics loc="66" ncloc="34" classes="1" methods="1" coveredmethods="1" conditionals="0" coveredconditionals="0" statements="1" coveredstatements="1" elements="2" coveredelements="2"/>
       </file>
       <file name="/home/travis/build/orchidsoftware/platform/src/Screen/Fields/Relation.php">
         <class name="Orchid\Screen\Fields\Relation" namespace="Orchid\Screen\Fields">
-          <metrics complexity="6" methods="4" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="22" coveredstatements="0" elements="26" coveredelements="0"/>
+          <metrics complexity="6" methods="4" coveredmethods="1" conditionals="0" coveredconditionals="0" statements="22" coveredstatements="14" elements="26" coveredelements="15"/>
         </class>
-        <line num="78" type="method" name="make" visibility="public" complexity="1" crap="2.00" count="0"/>
-        <line num="80" type="stmt" count="0"/>
+        <line num="78" type="method" name="make" visibility="public" complexity="1" crap="1" count="1"/>
+        <line num="80" type="stmt" count="1"/>
         <line num="86" type="method" name="multiple" visibility="public" complexity="1" crap="2.00" count="0"/>
         <line num="88" type="stmt" count="0"/>
         <line num="90" type="stmt" count="0"/>
-        <line num="100" type="method" name="fromModel" visibility="public" complexity="3" crap="12.00" count="0"/>
-        <line num="102" type="stmt" count="0"/>
-        <line num="104" type="stmt" count="0"/>
-        <line num="105" type="stmt" count="0"/>
-        <line num="106" type="stmt" count="0"/>
-        <line num="109" type="stmt" count="0"/>
-        <line num="111" type="stmt" count="0"/>
+        <line num="100" type="method" name="fromModel" visibility="public" complexity="3" crap="3.06" count="1"/>
+        <line num="102" type="stmt" count="1"/>
+        <line num="104" type="stmt" count="1"/>
+        <line num="105" type="stmt" count="1"/>
+        <line num="106" type="stmt" count="1"/>
+        <line num="109" type="stmt" count="1"/>
+        <line num="111" type="stmt" count="1"/>
         <line num="112" type="stmt" count="0"/>
-        <line num="115" type="stmt" count="0"/>
-        <line num="116" type="stmt" count="0"/>
-        <line num="119" type="stmt" count="0"/>
+        <line num="115" type="stmt" count="1"/>
+        <line num="116" type="stmt" count="1"/>
+        <line num="119" type="stmt" count="1"/>
         <line num="122" type="stmt" count="0"/>
         <line num="123" type="stmt" count="0"/>
-        <line num="125" type="stmt" count="0"/>
-        <line num="127" type="stmt" count="0"/>
-        <line num="128" type="stmt" count="0"/>
-        <line num="130" type="stmt" count="0"/>
+        <line num="125" type="stmt" count="1"/>
+        <line num="127" type="stmt" count="1"/>
+        <line num="128" type="stmt" count="1"/>
+        <line num="130" type="stmt" count="1"/>
         <line num="138" type="method" name="applyScope" visibility="public" complexity="1" crap="2.00" count="0"/>
         <line num="140" type="stmt" count="0"/>
         <line num="142" type="stmt" count="0"/>
         <line num="144" type="stmt" count="0"/>
-        <metrics loc="146" ncloc="96" classes="1" methods="4" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="22" coveredstatements="0" elements="26" coveredelements="0"/>
+        <metrics loc="146" ncloc="96" classes="1" methods="4" coveredmethods="1" conditionals="0" coveredconditionals="0" statements="22" coveredstatements="14" elements="26" coveredelements="15"/>
       </file>
       <file name="/home/travis/build/orchidsoftware/platform/src/Screen/Fields/Select.php">
         <class name="Orchid\Screen\Fields\Select" namespace="Orchid\Screen\Fields">
@@ -2291,20 +2292,20 @@
       </file>
       <file name="/home/travis/build/orchidsoftware/platform/src/Screen/Fields/Upload.php">
         <class name="Orchid\Screen\Fields\Upload" namespace="Orchid\Screen\Fields">
-          <metrics complexity="3" methods="2" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="9" coveredstatements="7" elements="11" coveredelements="7"/>
+          <metrics complexity="3" methods="2" coveredmethods="1" conditionals="0" coveredconditionals="0" statements="9" coveredstatements="8" elements="11" coveredelements="9"/>
         </class>
-        <line num="126" type="method" name="make" visibility="public" complexity="1" crap="2.00" count="0"/>
-        <line num="128" type="stmt" count="0"/>
-        <line num="134" type="method" name="__construct" visibility="public" complexity="2" crap="2.01" count="1"/>
-        <line num="137" type="stmt" count="1"/>
-        <line num="139" type="stmt" count="1"/>
+        <line num="126" type="method" name="make" visibility="public" complexity="1" crap="1" count="1"/>
+        <line num="128" type="stmt" count="1"/>
+        <line num="134" type="method" name="__construct" visibility="public" complexity="2" crap="2.01" count="2"/>
+        <line num="137" type="stmt" count="2"/>
+        <line num="139" type="stmt" count="2"/>
         <line num="140" type="stmt" count="0"/>
-        <line num="144" type="stmt" count="1"/>
-        <line num="146" type="stmt" count="1"/>
-        <line num="148" type="stmt" count="1"/>
-        <line num="149" type="stmt" count="1"/>
-        <line num="150" type="stmt" count="1"/>
-        <metrics loc="151" ncloc="85" classes="1" methods="2" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="9" coveredstatements="7" elements="11" coveredelements="7"/>
+        <line num="144" type="stmt" count="2"/>
+        <line num="146" type="stmt" count="2"/>
+        <line num="148" type="stmt" count="2"/>
+        <line num="149" type="stmt" count="2"/>
+        <line num="150" type="stmt" count="2"/>
+        <metrics loc="151" ncloc="85" classes="1" methods="2" coveredmethods="1" conditionals="0" coveredconditionals="0" statements="9" coveredstatements="8" elements="11" coveredelements="9"/>
       </file>
       <file name="/home/travis/build/orchidsoftware/platform/src/Screen/Fields/ViewField.php">
         <class name="Orchid\Screen\Fields\ViewField" namespace="Orchid\Screen\Fields">
@@ -2583,8 +2584,8 @@
         <class name="Orchid\Support\Assert" namespace="Orchid\Support">
           <metrics complexity="1" methods="1" coveredmethods="1" conditionals="0" coveredconditionals="0" statements="1" coveredstatements="1" elements="2" coveredelements="2"/>
         </class>
-        <line num="14" type="method" name="isIntArray" visibility="public" complexity="1" crap="1" count="1"/>
-        <line num="16" type="stmt" count="1"/>
+        <line num="14" type="method" name="isIntArray" visibility="public" complexity="1" crap="1" count="2"/>
+        <line num="16" type="stmt" count="2"/>
         <metrics loc="18" ncloc="13" classes="1" methods="1" coveredmethods="1" conditionals="0" coveredconditionals="0" statements="1" coveredstatements="1" elements="2" coveredelements="2"/>
       </file>
       <file name="/home/travis/build/orchidsoftware/platform/src/Support/Formats.php">
@@ -2615,8 +2616,8 @@
         <class name="Orchid\Support\Facades\Dashboard" namespace="Orchid\Support\Facades">
           <metrics complexity="1" methods="1" coveredmethods="1" conditionals="0" coveredconditionals="0" statements="1" coveredstatements="1" elements="2" coveredelements="2"/>
         </class>
-        <line num="20" type="method" name="getFacadeAccessor" visibility="protected" complexity="1" crap="1" count="124"/>
-        <line num="22" type="stmt" count="124"/>
+        <line num="20" type="method" name="getFacadeAccessor" visibility="protected" complexity="1" crap="1" count="127"/>
+        <line num="22" type="stmt" count="127"/>
         <metrics loc="24" ncloc="16" classes="1" methods="1" coveredmethods="1" conditionals="0" coveredconditionals="0" statements="1" coveredstatements="1" elements="2" coveredelements="2"/>
       </file>
       <file name="/home/travis/build/orchidsoftware/platform/src/Support/Facades/Setting.php">
@@ -2673,6 +2674,6 @@
       <line num="196" type="stmt" count="0"/>
       <metrics loc="198" ncloc="138" classes="0" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="42" coveredstatements="27" elements="42" coveredelements="27"/>
     </file>
-    <metrics files="120" loc="10780" ncloc="6720" classes="114" methods="389" coveredmethods="279" conditionals="0" coveredconditionals="0" statements="1521" coveredstatements="1235" elements="1910" coveredelements="1514"/>
+    <metrics files="120" loc="10782" ncloc="6722" classes="114" methods="389" coveredmethods="289" conditionals="0" coveredconditionals="0" statements="1522" coveredstatements="1265" elements="1911" coveredelements="1554"/>
   </project>
 </coverage>
