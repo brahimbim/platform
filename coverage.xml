@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1559084091">
-  <project timestamp="1559084091">
+<coverage generated="1559085220">
+  <project timestamp="1559085220">
     <package name="Orchid\Access">
       <file name="/home/travis/build/orchidsoftware/platform/src/Access/RoleAccess.php">
         <class name="RoleAccess" namespace="Orchid\Access">
@@ -1537,24 +1537,24 @@
     <package name="Orchid\Screen">
       <file name="/home/travis/build/orchidsoftware/platform/src/Screen/AsMultiSource.php">
         <class name="AsMultiSource" namespace="Orchid\Screen">
-          <metrics complexity="3" methods="2" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="6" coveredstatements="0" elements="8" coveredelements="0"/>
+          <metrics complexity="3" methods="2" coveredmethods="1" conditionals="0" coveredconditionals="0" statements="6" coveredstatements="5" elements="8" coveredelements="6"/>
         </class>
-        <line num="27" type="method" name="getContent" visibility="public" complexity="1" crap="2.00" count="0"/>
-        <line num="29" type="stmt" count="0"/>
-        <line num="38" type="method" name="getContentMultiLang" visibility="private" complexity="2" crap="6.00" count="0"/>
-        <line num="40" type="stmt" count="0"/>
-        <line num="41" type="stmt" count="0"/>
-        <line num="42" type="stmt" count="0"/>
-        <line num="43" type="stmt" count="0"/>
+        <line num="27" type="method" name="getContent" visibility="public" complexity="1" crap="1" count="1"/>
+        <line num="29" type="stmt" count="1"/>
+        <line num="38" type="method" name="getContentMultiLang" visibility="private" complexity="2" crap="2.03" count="1"/>
+        <line num="40" type="stmt" count="1"/>
+        <line num="41" type="stmt" count="1"/>
+        <line num="42" type="stmt" count="1"/>
+        <line num="43" type="stmt" count="1"/>
         <line num="46" type="stmt" count="0"/>
-        <metrics loc="48" ncloc="31" classes="1" methods="2" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="6" coveredstatements="0" elements="8" coveredelements="0"/>
+        <metrics loc="48" ncloc="31" classes="1" methods="2" coveredmethods="1" conditionals="0" coveredconditionals="0" statements="6" coveredstatements="5" elements="8" coveredelements="6"/>
       </file>
       <file name="/home/travis/build/orchidsoftware/platform/src/Screen/AsSource.php">
         <class name="AsSource" namespace="Orchid\Screen">
           <metrics complexity="1" methods="1" coveredmethods="1" conditionals="0" coveredconditionals="0" statements="1" coveredstatements="1" elements="2" coveredelements="2"/>
         </class>
-        <line num="19" type="method" name="getContent" visibility="public" complexity="1" crap="1" count="5"/>
-        <line num="21" type="stmt" count="5"/>
+        <line num="19" type="method" name="getContent" visibility="public" complexity="1" crap="1" count="6"/>
+        <line num="21" type="stmt" count="6"/>
         <metrics loc="23" ncloc="15" classes="1" methods="1" coveredmethods="1" conditionals="0" coveredconditionals="0" statements="1" coveredstatements="1" elements="2" coveredelements="2"/>
       </file>
       <file name="/home/travis/build/orchidsoftware/platform/src/Screen/Builder.php">
@@ -2674,6 +2674,6 @@
       <line num="196" type="stmt" count="0"/>
       <metrics loc="198" ncloc="138" classes="0" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="42" coveredstatements="27" elements="42" coveredelements="27"/>
     </file>
-    <metrics files="120" loc="10782" ncloc="6722" classes="114" methods="389" coveredmethods="289" conditionals="0" coveredconditionals="0" statements="1522" coveredstatements="1265" elements="1911" coveredelements="1554"/>
+    <metrics files="120" loc="10782" ncloc="6722" classes="114" methods="389" coveredmethods="290" conditionals="0" coveredconditionals="0" statements="1522" coveredstatements="1270" elements="1911" coveredelements="1560"/>
   </project>
 </coverage>
