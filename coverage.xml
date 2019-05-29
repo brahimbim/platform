@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1559122516">
-  <project timestamp="1559122516">
+<coverage generated="1559131696">
+  <project timestamp="1559131696">
     <package name="Orchid\Access">
       <file name="/home/travis/build/orchidsoftware/platform/src/Access/RoleAccess.php">
         <class name="RoleAccess" namespace="Orchid\Access">
@@ -1642,7 +1642,7 @@
       </file>
       <file name="/home/travis/build/orchidsoftware/platform/src/Screen/Field.php">
         <class name="Orchid\Screen\Field" namespace="Orchid\Screen">
-          <metrics complexity="45" methods="22" coveredmethods="17" conditionals="0" coveredconditionals="0" statements="93" coveredstatements="84" elements="115" coveredelements="101"/>
+          <metrics complexity="45" methods="22" coveredmethods="17" conditionals="0" coveredconditionals="0" statements="94" coveredstatements="85" elements="116" coveredelements="102"/>
         </class>
         <line num="129" type="method" name="__call" visibility="public" complexity="4" crap="4.59" count="27"/>
         <line num="131" type="stmt" count="27"/>
@@ -1706,60 +1706,61 @@
         <line num="275" type="method" name="getId" visibility="public" complexity="1" crap="1" count="43"/>
         <line num="277" type="stmt" count="43"/>
         <line num="278" type="stmt" count="43"/>
-        <line num="280" type="stmt" count="43"/>
-        <line num="289" type="method" name="get" visibility="public" complexity="2" crap="2" count="43"/>
-        <line num="291" type="stmt" count="43"/>
-        <line num="292" type="stmt" count="42"/>
-        <line num="295" type="stmt" count="43"/>
-        <line num="301" type="method" name="getSlug" visibility="public" complexity="1" crap="1" count="43"/>
-        <line num="303" type="stmt" count="43"/>
-        <line num="309" type="method" name="getOldValue" visibility="public" complexity="1" crap="1" count="43"/>
-        <line num="311" type="stmt" count="43"/>
-        <line num="317" type="method" name="getOldName" visibility="public" complexity="1" crap="1" count="43"/>
-        <line num="319" type="stmt" count="43"/>
+        <line num="279" type="stmt" count="43"/>
+        <line num="281" type="stmt" count="43"/>
+        <line num="290" type="method" name="get" visibility="public" complexity="2" crap="2" count="43"/>
+        <line num="292" type="stmt" count="43"/>
+        <line num="293" type="stmt" count="42"/>
+        <line num="296" type="stmt" count="43"/>
+        <line num="302" type="method" name="getSlug" visibility="public" complexity="1" crap="1" count="43"/>
+        <line num="304" type="stmt" count="43"/>
+        <line num="310" type="method" name="getOldValue" visibility="public" complexity="1" crap="1" count="43"/>
+        <line num="312" type="stmt" count="43"/>
+        <line num="318" type="method" name="getOldName" visibility="public" complexity="1" crap="1" count="43"/>
         <line num="320" type="stmt" count="43"/>
-        <line num="322" type="stmt" count="43"/>
-        <line num="328" type="method" name="hasError" visibility="private" complexity="1" crap="1" count="43"/>
-        <line num="330" type="stmt" count="43"/>
-        <line num="338" type="method" name="modifyName" visibility="public" complexity="7" crap="7.23" count="43"/>
-        <line num="340" type="stmt" count="43"/>
+        <line num="321" type="stmt" count="43"/>
+        <line num="323" type="stmt" count="43"/>
+        <line num="329" type="method" name="hasError" visibility="private" complexity="1" crap="1" count="43"/>
+        <line num="331" type="stmt" count="43"/>
+        <line num="339" type="method" name="modifyName" visibility="public" complexity="7" crap="7.23" count="43"/>
         <line num="341" type="stmt" count="43"/>
-        <line num="343" type="stmt" count="43"/>
-        <line num="345" type="stmt" count="43"/>
-        <line num="346" type="stmt" count="4"/>
-        <line num="349" type="stmt" count="43"/>
-        <line num="350" type="stmt" count="0"/>
-        <line num="353" type="stmt" count="43"/>
-        <line num="354" type="stmt" count="2"/>
-        <line num="357" type="stmt" count="43"/>
-        <line num="358" type="stmt" count="0"/>
-        <line num="361" type="stmt" count="43"/>
-        <line num="369" type="method" name="modifyValue" visibility="public" complexity="3" crap="3.14" count="22"/>
-        <line num="371" type="stmt" count="22"/>
-        <line num="373" type="stmt" count="22"/>
-        <line num="374" type="stmt" count="0"/>
-        <line num="377" type="stmt" count="22"/>
-        <line num="387" type="method" name="group" visibility="public" complexity="2" crap="2" count="4"/>
-        <line num="389" type="stmt" count="4"/>
-        <line num="390" type="stmt" count="3"/>
-        <line num="393" type="stmt" count="1"/>
-        <line num="401" type="method" name="vertical" visibility="public" complexity="1" crap="1" count="43"/>
-        <line num="403" type="stmt" count="43"/>
-        <line num="405" type="stmt" count="43"/>
-        <line num="413" type="method" name="horizontal" visibility="public" complexity="1" crap="1" count="2"/>
-        <line num="415" type="stmt" count="2"/>
-        <line num="417" type="stmt" count="2"/>
-        <line num="425" type="method" name="hr" visibility="public" complexity="1" crap="1" count="1"/>
-        <line num="427" type="stmt" count="1"/>
-        <line num="429" type="stmt" count="1"/>
-        <line num="437" type="method" name="addBeforeRender" visibility="public" complexity="1" crap="1" count="6"/>
-        <line num="439" type="stmt" count="6"/>
-        <line num="441" type="stmt" count="6"/>
-        <line num="447" type="method" name="runBeforeRender" visibility="public" complexity="2" crap="2" count="45"/>
-        <line num="449" type="stmt" count="45"/>
-        <line num="450" type="stmt" count="6"/>
-        <line num="452" type="stmt" count="45"/>
-        <metrics loc="453" ncloc="291" classes="1" methods="22" coveredmethods="17" conditionals="0" coveredconditionals="0" statements="93" coveredstatements="84" elements="115" coveredelements="101"/>
+        <line num="342" type="stmt" count="43"/>
+        <line num="344" type="stmt" count="43"/>
+        <line num="346" type="stmt" count="43"/>
+        <line num="347" type="stmt" count="4"/>
+        <line num="350" type="stmt" count="43"/>
+        <line num="351" type="stmt" count="0"/>
+        <line num="354" type="stmt" count="43"/>
+        <line num="355" type="stmt" count="2"/>
+        <line num="358" type="stmt" count="43"/>
+        <line num="359" type="stmt" count="0"/>
+        <line num="362" type="stmt" count="43"/>
+        <line num="370" type="method" name="modifyValue" visibility="public" complexity="3" crap="3.14" count="22"/>
+        <line num="372" type="stmt" count="22"/>
+        <line num="374" type="stmt" count="22"/>
+        <line num="375" type="stmt" count="0"/>
+        <line num="378" type="stmt" count="22"/>
+        <line num="388" type="method" name="group" visibility="public" complexity="2" crap="2" count="4"/>
+        <line num="390" type="stmt" count="4"/>
+        <line num="391" type="stmt" count="3"/>
+        <line num="394" type="stmt" count="1"/>
+        <line num="402" type="method" name="vertical" visibility="public" complexity="1" crap="1" count="43"/>
+        <line num="404" type="stmt" count="43"/>
+        <line num="406" type="stmt" count="43"/>
+        <line num="414" type="method" name="horizontal" visibility="public" complexity="1" crap="1" count="2"/>
+        <line num="416" type="stmt" count="2"/>
+        <line num="418" type="stmt" count="2"/>
+        <line num="426" type="method" name="hr" visibility="public" complexity="1" crap="1" count="1"/>
+        <line num="428" type="stmt" count="1"/>
+        <line num="430" type="stmt" count="1"/>
+        <line num="438" type="method" name="addBeforeRender" visibility="public" complexity="1" crap="1" count="6"/>
+        <line num="440" type="stmt" count="6"/>
+        <line num="442" type="stmt" count="6"/>
+        <line num="448" type="method" name="runBeforeRender" visibility="public" complexity="2" crap="2" count="45"/>
+        <line num="450" type="stmt" count="45"/>
+        <line num="451" type="stmt" count="6"/>
+        <line num="453" type="stmt" count="45"/>
+        <metrics loc="454" ncloc="292" classes="1" methods="22" coveredmethods="17" conditionals="0" coveredconditionals="0" statements="94" coveredstatements="85" elements="116" coveredelements="102"/>
       </file>
       <file name="/home/travis/build/orchidsoftware/platform/src/Screen/Layout.php">
         <class name="Orchid\Screen\Layout" namespace="Orchid\Screen">
@@ -2672,6 +2673,6 @@
       <line num="196" type="stmt" count="0"/>
       <metrics loc="198" ncloc="138" classes="0" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="42" coveredstatements="27" elements="42" coveredelements="27"/>
     </file>
-    <metrics files="120" loc="10783" ncloc="6723" classes="114" methods="389" coveredmethods="294" conditionals="0" coveredconditionals="0" statements="1520" coveredstatements="1281" elements="1909" coveredelements="1575"/>
+    <metrics files="120" loc="10784" ncloc="6724" classes="114" methods="389" coveredmethods="294" conditionals="0" coveredconditionals="0" statements="1521" coveredstatements="1282" elements="1910" coveredelements="1576"/>
   </project>
 </coverage>
