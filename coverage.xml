@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1559214538">
-  <project timestamp="1559214538">
+<coverage generated="1559222669">
+  <project timestamp="1559222669">
     <package name="Orchid\Access">
       <file name="/home/travis/build/orchidsoftware/platform/src/Access/RoleAccess.php">
         <class name="RoleAccess" namespace="Orchid\Access">
@@ -156,7 +156,7 @@
       </file>
       <file name="/home/travis/build/orchidsoftware/platform/src/Attachment/File.php">
         <class name="Orchid\Attachment\File" namespace="Orchid\Attachment">
-          <metrics complexity="11" methods="8" coveredmethods="8" conditionals="0" coveredconditionals="0" statements="49" coveredstatements="49" elements="57" coveredelements="57"/>
+          <metrics complexity="11" methods="8" coveredmethods="7" conditionals="0" coveredconditionals="0" statements="49" coveredstatements="48" elements="57" coveredelements="55"/>
         </class>
         <line num="74" type="method" name="__construct" visibility="public" complexity="1" crap="1" count="16"/>
         <line num="76" type="stmt" count="16"/>
@@ -174,10 +174,10 @@
         <line num="94" type="stmt" count="16"/>
         <line num="100" type="method" name="getHashFile" visibility="public" complexity="1" crap="1" count="16"/>
         <line num="102" type="stmt" count="16"/>
-        <line num="108" type="method" name="load" visibility="public" complexity="3" crap="3" count="16"/>
+        <line num="108" type="method" name="load" visibility="public" complexity="3" crap="3.01" count="16"/>
         <line num="110" type="stmt" count="16"/>
         <line num="112" type="stmt" count="16"/>
-        <line num="113" type="stmt" count="1"/>
+        <line num="113" type="stmt" count="0"/>
         <line num="116" type="stmt" count="16"/>
         <line num="117" type="stmt" count="16"/>
         <line num="120" type="stmt" count="1"/>
@@ -215,7 +215,7 @@
         <line num="188" type="stmt" count="16"/>
         <line num="189" type="stmt" count="1"/>
         <line num="190" type="stmt" count="16"/>
-        <metrics loc="192" ncloc="134" classes="1" methods="8" coveredmethods="8" conditionals="0" coveredconditionals="0" statements="49" coveredstatements="49" elements="57" coveredelements="57"/>
+        <metrics loc="192" ncloc="134" classes="1" methods="8" coveredmethods="7" conditionals="0" coveredconditionals="0" statements="49" coveredstatements="48" elements="57" coveredelements="55"/>
       </file>
     </package>
     <package name="Orchid\Attachment\Models">
@@ -443,7 +443,7 @@
       </file>
       <file name="/home/travis/build/orchidsoftware/platform/src/Platform/Commands/InstallCommand.php">
         <class name="Orchid\Platform\Commands\InstallCommand" namespace="Orchid\Platform\Commands">
-          <metrics complexity="14" methods="6" coveredmethods="2" conditionals="0" coveredconditionals="0" statements="54" coveredstatements="45" elements="60" coveredelements="47"/>
+          <metrics complexity="14" methods="6" coveredmethods="1" conditionals="0" coveredconditionals="0" statements="54" coveredstatements="44" elements="60" coveredelements="45"/>
         </class>
         <line num="39" type="method" name="handle" visibility="public" complexity="1" crap="1" count="1"/>
         <line num="41" type="stmt" count="1"/>
@@ -489,10 +489,10 @@
         <line num="134" type="stmt" count="0"/>
         <line num="135" type="stmt" count="0"/>
         <line num="136" type="stmt" count="0"/>
-        <line num="144" type="method" name="setValueEnv" visibility="private" complexity="3" crap="3" count="1"/>
+        <line num="144" type="method" name="setValueEnv" visibility="private" complexity="3" crap="3.14" count="1"/>
         <line num="146" type="stmt" count="1"/>
         <line num="148" type="stmt" count="1"/>
-        <line num="149" type="stmt" count="1"/>
+        <line num="149" type="stmt" count="0"/>
         <line num="152" type="stmt" count="1"/>
         <line num="158" type="method" name="checkInstall" visibility="private" complexity="3" crap="3.33" count="1"/>
         <line num="160" type="stmt" count="1"/>
@@ -503,9 +503,9 @@
         <line num="170" type="stmt" count="1"/>
         <line num="178" type="method" name="fileGetContent" visibility="private" complexity="2" crap="2.15" count="1"/>
         <line num="180" type="stmt" count="1"/>
-        <line num="181" type="stmt" count="1"/>
-        <line num="184" type="stmt" count="0"/>
-        <metrics loc="186" ncloc="146" classes="1" methods="6" coveredmethods="2" conditionals="0" coveredconditionals="0" statements="54" coveredstatements="45" elements="60" coveredelements="47"/>
+        <line num="181" type="stmt" count="0"/>
+        <line num="184" type="stmt" count="1"/>
+        <metrics loc="186" ncloc="146" classes="1" methods="6" coveredmethods="1" conditionals="0" coveredconditionals="0" statements="54" coveredstatements="44" elements="60" coveredelements="45"/>
       </file>
       <file name="/home/travis/build/orchidsoftware/platform/src/Platform/Commands/LinkCommand.php">
         <class name="Orchid\Platform\Commands\LinkCommand" namespace="Orchid\Platform\Commands">
@@ -1526,10 +1526,10 @@
         <line num="86" type="stmt" count="132"/>
         <line num="87" type="stmt" count="132"/>
         <line num="92" type="stmt" count="132"/>
-        <line num="93" type="stmt" count="123"/>
-        <line num="94" type="stmt" count="123"/>
-        <line num="95" type="stmt" count="123"/>
-        <line num="96" type="stmt" count="123"/>
+        <line num="93" type="stmt" count="132"/>
+        <line num="94" type="stmt" count="132"/>
+        <line num="95" type="stmt" count="132"/>
+        <line num="96" type="stmt" count="132"/>
         <line num="98" type="stmt" count="132"/>
         <metrics loc="99" ncloc="71" classes="1" methods="3" coveredmethods="2" conditionals="0" coveredconditionals="0" statements="37" coveredstatements="36" elements="40" coveredelements="38"/>
       </file>
@@ -2673,6 +2673,6 @@
       <line num="196" type="stmt" count="0"/>
       <metrics loc="198" ncloc="138" classes="0" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="42" coveredstatements="27" elements="42" coveredelements="27"/>
     </file>
-    <metrics files="120" loc="10785" ncloc="6725" classes="114" methods="389" coveredmethods="296" conditionals="0" coveredconditionals="0" statements="1521" coveredstatements="1284" elements="1910" coveredelements="1580"/>
+    <metrics files="120" loc="10785" ncloc="6725" classes="114" methods="389" coveredmethods="294" conditionals="0" coveredconditionals="0" statements="1521" coveredstatements="1282" elements="1910" coveredelements="1576"/>
   </project>
 </coverage>
