@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1559225971">
-  <project timestamp="1559225971">
+<coverage generated="1559230465">
+  <project timestamp="1559230465">
     <package name="Orchid\Access">
       <file name="/home/travis/build/orchidsoftware/platform/src/Access/RoleAccess.php">
         <class name="RoleAccess" namespace="Orchid\Access">
@@ -2183,33 +2183,33 @@
         <class name="Orchid\Screen\Fields\Relation" namespace="Orchid\Screen\Fields">
           <metrics complexity="6" methods="4" coveredmethods="1" conditionals="0" coveredconditionals="0" statements="22" coveredstatements="14" elements="26" coveredelements="15"/>
         </class>
-        <line num="79" type="method" name="make" visibility="public" complexity="1" crap="1" count="1"/>
-        <line num="81" type="stmt" count="1"/>
-        <line num="87" type="method" name="multiple" visibility="public" complexity="1" crap="2.00" count="0"/>
-        <line num="89" type="stmt" count="0"/>
-        <line num="91" type="stmt" count="0"/>
-        <line num="101" type="method" name="fromModel" visibility="public" complexity="3" crap="3.06" count="1"/>
-        <line num="103" type="stmt" count="1"/>
-        <line num="105" type="stmt" count="1"/>
+        <line num="80" type="method" name="make" visibility="public" complexity="1" crap="1" count="1"/>
+        <line num="82" type="stmt" count="1"/>
+        <line num="88" type="method" name="multiple" visibility="public" complexity="1" crap="2.00" count="0"/>
+        <line num="90" type="stmt" count="0"/>
+        <line num="92" type="stmt" count="0"/>
+        <line num="102" type="method" name="fromModel" visibility="public" complexity="3" crap="3.06" count="1"/>
+        <line num="104" type="stmt" count="1"/>
         <line num="106" type="stmt" count="1"/>
         <line num="107" type="stmt" count="1"/>
-        <line num="110" type="stmt" count="1"/>
-        <line num="112" type="stmt" count="1"/>
-        <line num="113" type="stmt" count="0"/>
-        <line num="116" type="stmt" count="1"/>
+        <line num="108" type="stmt" count="1"/>
+        <line num="111" type="stmt" count="1"/>
+        <line num="113" type="stmt" count="1"/>
+        <line num="114" type="stmt" count="0"/>
         <line num="117" type="stmt" count="1"/>
-        <line num="120" type="stmt" count="1"/>
-        <line num="123" type="stmt" count="0"/>
+        <line num="118" type="stmt" count="1"/>
+        <line num="121" type="stmt" count="1"/>
         <line num="124" type="stmt" count="0"/>
-        <line num="126" type="stmt" count="1"/>
-        <line num="128" type="stmt" count="1"/>
+        <line num="125" type="stmt" count="0"/>
+        <line num="127" type="stmt" count="1"/>
         <line num="129" type="stmt" count="1"/>
-        <line num="131" type="stmt" count="1"/>
-        <line num="139" type="method" name="applyScope" visibility="public" complexity="1" crap="2.00" count="0"/>
-        <line num="141" type="stmt" count="0"/>
-        <line num="143" type="stmt" count="0"/>
-        <line num="145" type="stmt" count="0"/>
-        <metrics loc="147" ncloc="97" classes="1" methods="4" coveredmethods="1" conditionals="0" coveredconditionals="0" statements="22" coveredstatements="14" elements="26" coveredelements="15"/>
+        <line num="130" type="stmt" count="1"/>
+        <line num="132" type="stmt" count="1"/>
+        <line num="140" type="method" name="applyScope" visibility="public" complexity="1" crap="2.00" count="0"/>
+        <line num="142" type="stmt" count="0"/>
+        <line num="144" type="stmt" count="0"/>
+        <line num="146" type="stmt" count="0"/>
+        <metrics loc="148" ncloc="97" classes="1" methods="4" coveredmethods="1" conditionals="0" coveredconditionals="0" statements="22" coveredstatements="14" elements="26" coveredelements="15"/>
       </file>
       <file name="/home/travis/build/orchidsoftware/platform/src/Screen/Fields/Select.php">
         <class name="Orchid\Screen\Fields\Select" namespace="Orchid\Screen\Fields">
@@ -2277,9 +2277,9 @@
         <class name="Orchid\Screen\Fields\TinyMCE" namespace="Orchid\Screen\Fields">
           <metrics complexity="1" methods="1" coveredmethods="1" conditionals="0" coveredconditionals="0" statements="1" coveredstatements="1" elements="2" coveredelements="2"/>
         </class>
-        <line num="101" type="method" name="make" visibility="public" complexity="1" crap="1" count="1"/>
-        <line num="103" type="stmt" count="1"/>
-        <metrics loc="105" ncloc="53" classes="1" methods="1" coveredmethods="1" conditionals="0" coveredconditionals="0" statements="1" coveredstatements="1" elements="2" coveredelements="2"/>
+        <line num="102" type="method" name="make" visibility="public" complexity="1" crap="1" count="1"/>
+        <line num="104" type="stmt" count="1"/>
+        <metrics loc="106" ncloc="53" classes="1" methods="1" coveredmethods="1" conditionals="0" coveredconditionals="0" statements="1" coveredstatements="1" elements="2" coveredelements="2"/>
       </file>
       <file name="/home/travis/build/orchidsoftware/platform/src/Screen/Fields/UTM.php">
         <class name="Orchid\Screen\Fields\UTM" namespace="Orchid\Screen\Fields">
@@ -2673,6 +2673,6 @@
       <line num="196" type="stmt" count="0"/>
       <metrics loc="198" ncloc="138" classes="0" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="42" coveredstatements="27" elements="42" coveredelements="27"/>
     </file>
-    <metrics files="120" loc="10785" ncloc="6725" classes="114" methods="389" coveredmethods="294" conditionals="0" coveredconditionals="0" statements="1521" coveredstatements="1282" elements="1910" coveredelements="1576"/>
+    <metrics files="120" loc="10787" ncloc="6725" classes="114" methods="389" coveredmethods="294" conditionals="0" coveredconditionals="0" statements="1521" coveredstatements="1282" elements="1910" coveredelements="1576"/>
   </project>
 </coverage>
