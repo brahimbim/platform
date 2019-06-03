@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1559549357">
-  <project timestamp="1559549357">
+<coverage generated="1559571710">
+  <project timestamp="1559571710">
     <package name="Orchid\Access">
       <file name="/home/travis/build/orchidsoftware/platform/src/Access/RoleAccess.php">
         <class name="RoleAccess" namespace="Orchid\Access">
@@ -156,7 +156,7 @@
       </file>
       <file name="/home/travis/build/orchidsoftware/platform/src/Attachment/File.php">
         <class name="Orchid\Attachment\File" namespace="Orchid\Attachment">
-          <metrics complexity="11" methods="8" coveredmethods="8" conditionals="0" coveredconditionals="0" statements="49" coveredstatements="49" elements="57" coveredelements="57"/>
+          <metrics complexity="11" methods="8" coveredmethods="7" conditionals="0" coveredconditionals="0" statements="49" coveredstatements="48" elements="57" coveredelements="55"/>
         </class>
         <line num="74" type="method" name="__construct" visibility="public" complexity="1" crap="1" count="16"/>
         <line num="76" type="stmt" count="16"/>
@@ -174,10 +174,10 @@
         <line num="94" type="stmt" count="16"/>
         <line num="100" type="method" name="getHashFile" visibility="public" complexity="1" crap="1" count="16"/>
         <line num="102" type="stmt" count="16"/>
-        <line num="108" type="method" name="load" visibility="public" complexity="3" crap="3" count="16"/>
+        <line num="108" type="method" name="load" visibility="public" complexity="3" crap="3.01" count="16"/>
         <line num="110" type="stmt" count="16"/>
         <line num="112" type="stmt" count="16"/>
-        <line num="113" type="stmt" count="1"/>
+        <line num="113" type="stmt" count="0"/>
         <line num="116" type="stmt" count="16"/>
         <line num="117" type="stmt" count="16"/>
         <line num="120" type="stmt" count="1"/>
@@ -215,7 +215,7 @@
         <line num="188" type="stmt" count="16"/>
         <line num="189" type="stmt" count="1"/>
         <line num="190" type="stmt" count="16"/>
-        <metrics loc="192" ncloc="134" classes="1" methods="8" coveredmethods="8" conditionals="0" coveredconditionals="0" statements="49" coveredstatements="49" elements="57" coveredelements="57"/>
+        <metrics loc="192" ncloc="134" classes="1" methods="8" coveredmethods="7" conditionals="0" coveredconditionals="0" statements="49" coveredstatements="48" elements="57" coveredelements="55"/>
       </file>
     </package>
     <package name="Orchid\Attachment\Models">
@@ -1253,16 +1253,16 @@
         <class name="Orchid\Platform\Listeners\LockUserForLogin" namespace="Orchid\Platform\Listeners">
           <metrics complexity="3" methods="2" coveredmethods="1" conditionals="0" coveredconditionals="0" statements="7" coveredstatements="6" elements="9" coveredelements="7"/>
         </class>
-        <line num="23" type="method" name="__construct" visibility="public" complexity="1" crap="1" count="1"/>
+        <line num="22" type="method" name="__construct" visibility="public" complexity="1" crap="1" count="1"/>
+        <line num="24" type="stmt" count="1"/>
         <line num="25" type="stmt" count="1"/>
-        <line num="26" type="stmt" count="1"/>
-        <line num="35" type="method" name="handle" visibility="public" complexity="2" crap="2.03" count="1"/>
-        <line num="37" type="stmt" count="1"/>
-        <line num="38" type="stmt" count="0"/>
-        <line num="41" type="stmt" count="1"/>
+        <line num="34" type="method" name="handle" visibility="public" complexity="2" crap="2.03" count="1"/>
+        <line num="36" type="stmt" count="1"/>
+        <line num="37" type="stmt" count="0"/>
+        <line num="40" type="stmt" count="1"/>
+        <line num="42" type="stmt" count="1"/>
         <line num="43" type="stmt" count="1"/>
-        <line num="44" type="stmt" count="1"/>
-        <metrics loc="45" ncloc="30" classes="1" methods="2" coveredmethods="1" conditionals="0" coveredconditionals="0" statements="7" coveredstatements="6" elements="9" coveredelements="7"/>
+        <metrics loc="44" ncloc="29" classes="1" methods="2" coveredmethods="1" conditionals="0" coveredconditionals="0" statements="7" coveredstatements="6" elements="9" coveredelements="7"/>
       </file>
       <file name="/home/travis/build/orchidsoftware/platform/src/Platform/Listeners/LogSuccessfulLogin.php">
         <class name="Orchid\Platform\Listeners\LogSuccessfulLogin" namespace="Orchid\Platform\Listeners">
@@ -2680,6 +2680,6 @@
       <line num="196" type="stmt" count="0"/>
       <metrics loc="198" ncloc="138" classes="0" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="42" coveredstatements="27" elements="42" coveredelements="27"/>
     </file>
-    <metrics files="120" loc="10810" ncloc="6739" classes="114" methods="390" coveredmethods="295" conditionals="0" coveredconditionals="0" statements="1527" coveredstatements="1283" elements="1917" coveredelements="1578"/>
+    <metrics files="120" loc="10809" ncloc="6738" classes="114" methods="390" coveredmethods="294" conditionals="0" coveredconditionals="0" statements="1527" coveredstatements="1282" elements="1917" coveredelements="1576"/>
   </project>
 </coverage>
