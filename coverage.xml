@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1559658232">
-  <project timestamp="1559658232">
+<coverage generated="1559744612">
+  <project timestamp="1559744612">
     <package name="Orchid\Access">
       <file name="/home/travis/build/orchidsoftware/platform/src/Access/RoleAccess.php">
         <class name="RoleAccess" namespace="Orchid\Access">
@@ -156,7 +156,7 @@
       </file>
       <file name="/home/travis/build/orchidsoftware/platform/src/Attachment/File.php">
         <class name="Orchid\Attachment\File" namespace="Orchid\Attachment">
-          <metrics complexity="11" methods="8" coveredmethods="7" conditionals="0" coveredconditionals="0" statements="49" coveredstatements="48" elements="57" coveredelements="55"/>
+          <metrics complexity="11" methods="8" coveredmethods="8" conditionals="0" coveredconditionals="0" statements="49" coveredstatements="49" elements="57" coveredelements="57"/>
         </class>
         <line num="74" type="method" name="__construct" visibility="public" complexity="1" crap="1" count="16"/>
         <line num="76" type="stmt" count="16"/>
@@ -174,10 +174,10 @@
         <line num="94" type="stmt" count="16"/>
         <line num="100" type="method" name="getHashFile" visibility="public" complexity="1" crap="1" count="16"/>
         <line num="102" type="stmt" count="16"/>
-        <line num="108" type="method" name="load" visibility="public" complexity="3" crap="3.01" count="16"/>
+        <line num="108" type="method" name="load" visibility="public" complexity="3" crap="3" count="16"/>
         <line num="110" type="stmt" count="16"/>
         <line num="112" type="stmt" count="16"/>
-        <line num="113" type="stmt" count="0"/>
+        <line num="113" type="stmt" count="1"/>
         <line num="116" type="stmt" count="16"/>
         <line num="117" type="stmt" count="16"/>
         <line num="120" type="stmt" count="1"/>
@@ -215,7 +215,7 @@
         <line num="188" type="stmt" count="16"/>
         <line num="189" type="stmt" count="1"/>
         <line num="190" type="stmt" count="16"/>
-        <metrics loc="192" ncloc="134" classes="1" methods="8" coveredmethods="7" conditionals="0" coveredconditionals="0" statements="49" coveredstatements="48" elements="57" coveredelements="55"/>
+        <metrics loc="192" ncloc="134" classes="1" methods="8" coveredmethods="8" conditionals="0" coveredconditionals="0" statements="49" coveredstatements="49" elements="57" coveredelements="57"/>
       </file>
     </package>
     <package name="Orchid\Attachment\Models">
@@ -2680,6 +2680,6 @@
       <line num="196" type="stmt" count="0"/>
       <metrics loc="198" ncloc="138" classes="0" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="42" coveredstatements="27" elements="42" coveredelements="27"/>
     </file>
-    <metrics files="120" loc="10809" ncloc="6738" classes="114" methods="390" coveredmethods="294" conditionals="0" coveredconditionals="0" statements="1527" coveredstatements="1282" elements="1917" coveredelements="1576"/>
+    <metrics files="120" loc="10809" ncloc="6738" classes="114" methods="390" coveredmethods="295" conditionals="0" coveredconditionals="0" statements="1527" coveredstatements="1283" elements="1917" coveredelements="1578"/>
   </project>
 </coverage>
