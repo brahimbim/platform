@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1560003891">
-  <project timestamp="1560003891">
+<coverage generated="1560021364">
+  <project timestamp="1560021364">
     <package name="Orchid\Access">
       <file name="/home/travis/build/orchidsoftware/platform/src/Access/RoleAccess.php">
         <class name="RoleAccess" namespace="Orchid\Access">
@@ -2066,14 +2066,14 @@
         <class name="Orchid\Screen\Fields\Code" namespace="Orchid\Screen\Fields">
           <metrics complexity="3" methods="2" coveredmethods="1" conditionals="0" coveredconditionals="0" statements="5" coveredstatements="4" elements="7" coveredelements="5"/>
         </class>
-        <line num="84" type="method" name="make" visibility="public" complexity="1" crap="1" count="1"/>
-        <line num="86" type="stmt" count="1"/>
-        <line num="94" type="method" name="modifyValue" visibility="public" complexity="2" crap="2.06" count="1"/>
-        <line num="96" type="stmt" count="1"/>
-        <line num="98" type="stmt" count="1"/>
-        <line num="99" type="stmt" count="0"/>
-        <line num="102" type="stmt" count="1"/>
-        <metrics loc="104" ncloc="70" classes="1" methods="2" coveredmethods="1" conditionals="0" coveredconditionals="0" statements="5" coveredstatements="4" elements="7" coveredelements="5"/>
+        <line num="109" type="method" name="make" visibility="public" complexity="1" crap="1" count="1"/>
+        <line num="111" type="stmt" count="1"/>
+        <line num="119" type="method" name="modifyValue" visibility="public" complexity="2" crap="2.06" count="1"/>
+        <line num="121" type="stmt" count="1"/>
+        <line num="123" type="stmt" count="1"/>
+        <line num="124" type="stmt" count="0"/>
+        <line num="127" type="stmt" count="1"/>
+        <metrics loc="129" ncloc="78" classes="1" methods="2" coveredmethods="1" conditionals="0" coveredconditionals="0" statements="5" coveredstatements="4" elements="7" coveredelements="5"/>
       </file>
       <file name="/home/travis/build/orchidsoftware/platform/src/Screen/Fields/Cropper.php">
         <class name="Orchid\Screen\Fields\Cropper" namespace="Orchid\Screen\Fields">
@@ -2701,6 +2701,6 @@
       <line num="196" type="stmt" count="0"/>
       <metrics loc="198" ncloc="138" classes="0" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="42" coveredstatements="27" elements="42" coveredelements="27"/>
     </file>
-    <metrics files="121" loc="10868" ncloc="6783" classes="115" methods="394" coveredmethods="294" conditionals="0" coveredconditionals="0" statements="1538" coveredstatements="1283" elements="1932" coveredelements="1577"/>
+    <metrics files="121" loc="10893" ncloc="6791" classes="115" methods="394" coveredmethods="294" conditionals="0" coveredconditionals="0" statements="1538" coveredstatements="1283" elements="1932" coveredelements="1577"/>
   </project>
 </coverage>
