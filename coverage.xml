@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1559951660">
-  <project timestamp="1559951660">
+<coverage generated="1559952153">
+  <project timestamp="1559952153">
     <package name="Orchid\Access">
       <file name="/home/travis/build/orchidsoftware/platform/src/Access/RoleAccess.php">
         <class name="RoleAccess" namespace="Orchid\Access">
@@ -81,18 +81,18 @@
         <class name="Orchid\Access\UserSwitch" namespace="Orchid\Access">
           <metrics complexity="4" methods="3" coveredmethods="1" conditionals="0" coveredconditionals="0" statements="8" coveredstatements="1" elements="11" coveredelements="2"/>
         </class>
-        <line num="24" type="method" name="loginAs" visibility="public" complexity="2" crap="6.00" count="0"/>
+        <line num="19" type="method" name="loginAs" visibility="public" complexity="2" crap="6.00" count="0"/>
+        <line num="21" type="stmt" count="0"/>
+        <line num="22" type="stmt" count="0"/>
+        <line num="25" type="stmt" count="0"/>
         <line num="26" type="stmt" count="0"/>
-        <line num="27" type="stmt" count="0"/>
-        <line num="30" type="stmt" count="0"/>
-        <line num="31" type="stmt" count="0"/>
-        <line num="36" type="method" name="logout" visibility="public" complexity="1" crap="2.00" count="0"/>
-        <line num="38" type="stmt" count="0"/>
-        <line num="39" type="stmt" count="0"/>
-        <line num="40" type="stmt" count="0"/>
-        <line num="45" type="method" name="isSwitch" visibility="public" complexity="1" crap="1" count="12"/>
-        <line num="47" type="stmt" count="12"/>
-        <metrics loc="48" ncloc="34" classes="1" methods="3" coveredmethods="1" conditionals="0" coveredconditionals="0" statements="8" coveredstatements="1" elements="11" coveredelements="2"/>
+        <line num="31" type="method" name="logout" visibility="public" complexity="1" crap="2.00" count="0"/>
+        <line num="33" type="stmt" count="0"/>
+        <line num="34" type="stmt" count="0"/>
+        <line num="35" type="stmt" count="0"/>
+        <line num="40" type="method" name="isSwitch" visibility="public" complexity="1" crap="1" count="12"/>
+        <line num="42" type="stmt" count="12"/>
+        <metrics loc="44" ncloc="33" classes="1" methods="3" coveredmethods="1" conditionals="0" coveredconditionals="0" statements="8" coveredstatements="1" elements="11" coveredelements="2"/>
       </file>
     </package>
     <file name="/home/travis/build/orchidsoftware/platform/src/Access/RoleInterface.php">
@@ -173,7 +173,7 @@
       </file>
       <file name="/home/travis/build/orchidsoftware/platform/src/Attachment/File.php">
         <class name="Orchid\Attachment\File" namespace="Orchid\Attachment">
-          <metrics complexity="11" methods="8" coveredmethods="7" conditionals="0" coveredconditionals="0" statements="49" coveredstatements="48" elements="57" coveredelements="55"/>
+          <metrics complexity="11" methods="8" coveredmethods="8" conditionals="0" coveredconditionals="0" statements="49" coveredstatements="49" elements="57" coveredelements="57"/>
         </class>
         <line num="74" type="method" name="__construct" visibility="public" complexity="1" crap="1" count="16"/>
         <line num="76" type="stmt" count="16"/>
@@ -191,10 +191,10 @@
         <line num="94" type="stmt" count="16"/>
         <line num="100" type="method" name="getHashFile" visibility="public" complexity="1" crap="1" count="16"/>
         <line num="102" type="stmt" count="16"/>
-        <line num="108" type="method" name="load" visibility="public" complexity="3" crap="3.01" count="16"/>
+        <line num="108" type="method" name="load" visibility="public" complexity="3" crap="3" count="16"/>
         <line num="110" type="stmt" count="16"/>
         <line num="112" type="stmt" count="16"/>
-        <line num="113" type="stmt" count="0"/>
+        <line num="113" type="stmt" count="1"/>
         <line num="116" type="stmt" count="16"/>
         <line num="117" type="stmt" count="16"/>
         <line num="120" type="stmt" count="1"/>
@@ -232,7 +232,7 @@
         <line num="188" type="stmt" count="16"/>
         <line num="189" type="stmt" count="1"/>
         <line num="190" type="stmt" count="16"/>
-        <metrics loc="192" ncloc="134" classes="1" methods="8" coveredmethods="7" conditionals="0" coveredconditionals="0" statements="49" coveredstatements="48" elements="57" coveredelements="55"/>
+        <metrics loc="192" ncloc="134" classes="1" methods="8" coveredmethods="8" conditionals="0" coveredconditionals="0" statements="49" coveredstatements="49" elements="57" coveredelements="57"/>
       </file>
     </package>
     <package name="Orchid\Attachment\Models">
@@ -986,24 +986,24 @@
         <class name="Orchid\Platform\Http\Controllers\Auth\LoginController" namespace="Orchid\Platform\Http\Controllers\Auth">
           <metrics complexity="6" methods="6" coveredmethods="5" conditionals="0" coveredconditionals="0" statements="11" coveredstatements="9" elements="17" coveredelements="14"/>
         </class>
-        <line num="34" type="method" name="__construct" visibility="public" complexity="1" crap="1" count="5"/>
-        <line num="36" type="stmt" count="5"/>
-        <line num="38" type="stmt" count="5"/>
-        <line num="42" type="stmt" count="5"/>
-        <line num="47" type="method" name="showLoginForm" visibility="public" complexity="1" crap="1" count="1"/>
-        <line num="49" type="stmt" count="1"/>
-        <line num="57" type="method" name="redirectTo" visibility="public" complexity="1" crap="1" count="1"/>
-        <line num="59" type="stmt" count="1"/>
-        <line num="67" type="method" name="sendFailedLoginResponse" visibility="protected" complexity="1" crap="1" count="1"/>
+        <line num="33" type="method" name="__construct" visibility="public" complexity="1" crap="1" count="5"/>
+        <line num="35" type="stmt" count="5"/>
+        <line num="37" type="stmt" count="5"/>
+        <line num="41" type="stmt" count="5"/>
+        <line num="46" type="method" name="showLoginForm" visibility="public" complexity="1" crap="1" count="1"/>
+        <line num="48" type="stmt" count="1"/>
+        <line num="56" type="method" name="redirectTo" visibility="public" complexity="1" crap="1" count="1"/>
+        <line num="58" type="stmt" count="1"/>
+        <line num="66" type="method" name="sendFailedLoginResponse" visibility="protected" complexity="1" crap="1" count="1"/>
+        <line num="68" type="stmt" count="1"/>
         <line num="69" type="stmt" count="1"/>
-        <line num="70" type="stmt" count="1"/>
-        <line num="79" type="method" name="resetCookieLockMe" visibility="public" complexity="1" crap="1" count="1"/>
-        <line num="81" type="stmt" count="1"/>
-        <line num="83" type="stmt" count="1"/>
-        <line num="89" type="method" name="switchLogout" visibility="public" complexity="1" crap="2.00" count="0"/>
-        <line num="91" type="stmt" count="0"/>
-        <line num="93" type="stmt" count="0"/>
-        <metrics loc="96" ncloc="62" classes="1" methods="6" coveredmethods="5" conditionals="0" coveredconditionals="0" statements="11" coveredstatements="9" elements="17" coveredelements="14"/>
+        <line num="78" type="method" name="resetCookieLockMe" visibility="public" complexity="1" crap="1" count="1"/>
+        <line num="80" type="stmt" count="1"/>
+        <line num="82" type="stmt" count="1"/>
+        <line num="88" type="method" name="switchLogout" visibility="public" complexity="1" crap="2.00" count="0"/>
+        <line num="90" type="stmt" count="0"/>
+        <line num="92" type="stmt" count="0"/>
+        <metrics loc="94" ncloc="60" classes="1" methods="6" coveredmethods="5" conditionals="0" coveredconditionals="0" statements="11" coveredstatements="9" elements="17" coveredelements="14"/>
       </file>
       <file name="/home/travis/build/orchidsoftware/platform/src/Platform/Http/Controllers/Auth/ResetPasswordController.php">
         <class name="Orchid\Platform\Http\Controllers\Auth\ResetPasswordController" namespace="Orchid\Platform\Http\Controllers\Auth">
@@ -2701,6 +2701,6 @@
       <line num="196" type="stmt" count="0"/>
       <metrics loc="198" ncloc="138" classes="0" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="42" coveredstatements="27" elements="42" coveredelements="27"/>
     </file>
-    <metrics files="121" loc="10874" ncloc="6786" classes="115" methods="394" coveredmethods="294" conditionals="0" coveredconditionals="0" statements="1538" coveredstatements="1283" elements="1932" coveredelements="1577"/>
+    <metrics files="121" loc="10868" ncloc="6783" classes="115" methods="394" coveredmethods="295" conditionals="0" coveredconditionals="0" statements="1538" coveredstatements="1284" elements="1932" coveredelements="1579"/>
   </project>
 </coverage>
