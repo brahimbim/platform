@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1560627997">
-  <project timestamp="1560627997">
+<coverage generated="1560628174">
+  <project timestamp="1560628174">
     <package name="Orchid\Access">
       <file name="/home/travis/build/orchidsoftware/platform/src/Access/RoleAccess.php">
         <class name="RoleAccess" namespace="Orchid\Access">
@@ -90,13 +90,13 @@
         <line num="33" type="stmt" count="1"/>
         <line num="34" type="stmt" count="1"/>
         <line num="35" type="stmt" count="1"/>
-        <line num="40" type="method" name="isSwitch" visibility="public" complexity="1" crap="1" count="12"/>
-        <line num="42" type="stmt" count="12"/>
+        <line num="40" type="method" name="isSwitch" visibility="public" complexity="1" crap="1" count="13"/>
+        <line num="42" type="stmt" count="13"/>
         <metrics loc="44" ncloc="33" classes="1" methods="3" coveredmethods="3" conditionals="0" coveredconditionals="0" statements="8" coveredstatements="8" elements="11" coveredelements="11"/>
       </file>
     </package>
     <file name="/home/travis/build/orchidsoftware/platform/src/Access/RoleInterface.php">
-      <metrics loc="28" ncloc="17" classes="0" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+      <metrics loc="27" ncloc="16" classes="0" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
     </file>
     <file name="/home/travis/build/orchidsoftware/platform/src/Access/UserInterface.php">
       <metrics loc="17" ncloc="12" classes="0" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
@@ -2721,6 +2721,6 @@
       <line num="196" type="stmt" count="0"/>
       <metrics loc="198" ncloc="138" classes="0" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="42" coveredstatements="27" elements="42" coveredelements="27"/>
     </file>
-    <metrics files="122" loc="10996" ncloc="6857" classes="116" methods="397" coveredmethods="301" conditionals="0" coveredconditionals="0" statements="1549" coveredstatements="1303" elements="1946" coveredelements="1604"/>
+    <metrics files="122" loc="10995" ncloc="6856" classes="116" methods="397" coveredmethods="301" conditionals="0" coveredconditionals="0" statements="1549" coveredstatements="1303" elements="1946" coveredelements="1604"/>
   </project>
 </coverage>
