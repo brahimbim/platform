@@ -4,21 +4,25 @@ declare(strict_types=1);
 
 namespace Orchid\Tests\Unit\Fields;
 
+use Illuminate\Database\Eloquent\Collection;
 use Orchid\Platform\Models\Role;
 use Orchid\Screen\Fields\Relation;
 use Orchid\Tests\Exemplar\App\AjaxRecord;
-use Illuminate\Database\Eloquent\Collection;
 
 /**
  * Class RelationTest.
  */
 class RelationTest extends TestFieldsUnitCase
 {
+
     /**
      * @var Collection
      */
     protected $roles;
 
+    /**
+     *
+     */
     public function setUp(): void
     {
         parent::setUp();
@@ -35,14 +39,14 @@ class RelationTest extends TestFieldsUnitCase
         $current = $this->roles->random();
 
         $select = Relation::make('role')
-            ->title('Select Role')
+            ->title('Select role')
             ->fromModel(Role::class, 'name')
             ->value($current);
 
         $view = self::renderField($select);
 
         $this->assertStringContainsString($current->name, $view);
-        $this->assertStringContainsString('Select Role', $view);
+        $this->assertStringContainsString('Select role', $view);
     }
 
     /**
@@ -54,14 +58,14 @@ class RelationTest extends TestFieldsUnitCase
         $current = $this->roles->random();
 
         $select = Relation::make('role')
-            ->title('Select Role')
+            ->title('Select roles')
             ->fromModel(Role::class, 'name')
             ->value($current->id);
 
         $view = self::renderField($select);
 
         $this->assertStringContainsString($current->name, $view);
-        $this->assertStringContainsString('Select Role', $view);
+        $this->assertStringContainsString('Select roles', $view);
     }
 
     /**
@@ -73,7 +77,6 @@ class RelationTest extends TestFieldsUnitCase
         $current = $this->roles->random(2);
 
         $select = Relation::make('role.')
-            ->title('Select Role')
             ->fromModel(Role::class, 'name')
             ->value($current);
 
@@ -81,8 +84,8 @@ class RelationTest extends TestFieldsUnitCase
 
         $this->assertStringContainsString($current[0]->name, $view);
         $this->assertStringContainsString($current[1]->name, $view);
-        $this->assertStringContainsString('Select Role', $view);
     }
+
 
     /**
      * @test
@@ -93,7 +96,6 @@ class RelationTest extends TestFieldsUnitCase
         $current = $this->roles->random(2);
 
         $select = Relation::make('role.')
-            ->title('Select Role')
             ->fromModel(Role::class, 'name')
             ->value([
                 $current[0]->id,
@@ -104,7 +106,6 @@ class RelationTest extends TestFieldsUnitCase
 
         $this->assertStringContainsString($current[0]->name, $view);
         $this->assertStringContainsString($current[1]->name, $view);
-        $this->assertStringContainsString('Select Role', $view);
     }
 
     /**
@@ -113,7 +114,6 @@ class RelationTest extends TestFieldsUnitCase
     public function testAJAXClass()
     {
         $select = Relation::make('role.')
-            ->title('Select Role')
             ->fromClass(AjaxRecord::class, 'text')
             ->value(1);
 
