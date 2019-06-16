@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1560704787">
-  <project timestamp="1560704787">
+<coverage generated="1560704956">
+  <project timestamp="1560704956">
     <package name="Orchid\Access">
       <file name="/home/travis/build/orchidsoftware/platform/src/Access/RoleAccess.php">
         <class name="RoleAccess" namespace="Orchid\Access">
